@@ -11,7 +11,7 @@ var respecConfig = {
     company: "Company",
     companyURL: "CompanyURL",
   }],
-  shortName: "bro-gmk",
+  shortName: "bro-gmm",
   github: "https://github.com/BROprogramma/geomorfologischekaart",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
