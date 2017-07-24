@@ -1,17 +1,39 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
-  //publishDate: "2017-06-15",
+  publishDate: "2017-07-07",
   editors: [
     {
-      name: "First Lastname",
-      company: "Company",
-      companyURL: "CompanyURL",
+      name: "Linda van den Brink",
+      company: "Geonovum",
+      companyURL: "https://www.geonovum.nl",
+    },
+  ],
+  authors: [
+    {
+      name: "Nanny Heidema",
+      company: "Wageningen University & Research",
+      companyURL: "https://www.wur.nl",
     },
     {
-      name: "Second Lastname",
-      company: "Company",
-      companyURL: "CompanyURL",
+      name: "Gilbert Maas",
+      company: "Wageningen University & Research",
+      companyURL: "https://www.wur.nl",
+    },
+    {
+      name: "Folkert de Vries",
+      company: "Wageningen University & Research",
+      companyURL: "https://www.wur.nl",
+    },
+    {
+      name: "Jandirk Bulens",
+      company: "Wageningen University & Research",
+      companyURL: "https://www.wur.nl",
+    },
+    {
+      name: "Wies Vullings",
+      company: "Wageningen University & Research",
+      companyURL: "https://www.wur.nl",
     },
   ],
   shortName: "bro-gmm",
