@@ -38,7 +38,7 @@ var respecConfig = {
   ],
   shortName: "bro-gmm",
   pubDomain: "bro",
-  github: "https://github.com/BROprogramma/geomorfologischekaart",
+  github: "https://github.com/BROprogramma/GMM",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
   //localBiblio: {
