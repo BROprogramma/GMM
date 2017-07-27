@@ -1,4 +1,4 @@
-# Geomorfologische kaart
+# Geomorfologische kaart (Geomorphological map / GMM)
 
 De gegevenscatalogus voor dit informatiemodel wordt in dit Github repository ontwikkeld.
 
