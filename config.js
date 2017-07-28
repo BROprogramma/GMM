@@ -36,6 +36,23 @@ var respecConfig = {
       companyURL: "https://www.wur.nl",
     },
   ],
+  localBiblio: {
+    Maas2017: {
+      title:
+        "Toelichting op de legenda van de Geomorfologische kaart van Nederland 1:50 000 ",
+      authors: ["Maas, G.J."],
+      date: "2017",
+      url: "http://legendageomorfologie.wur.nl/",
+    },
+    "Koomen-Maas2004": {
+      title:
+        "Geomorfologische Kaart Nederland, Achtergronddocument bij het landsdekkende digitale bestand. ",
+      authors: ["Koomen, A.J.M.", "Maas, G.J"],
+      date: "2004",
+      publisher: "Alterra Wageningen UR",
+      id: "Rapport 1039",
+    },
+  },
   shortName: "bro-gmm",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GMM",
