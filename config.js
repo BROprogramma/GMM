@@ -42,7 +42,7 @@ var respecConfig = {
         "Toelichting op de legenda van de Geomorfologische kaart van Nederland 1:50 000 ",
       authors: ["Maas, G.J."],
       date: "2017",
-      url: "http://legendageomorfologie.wur.nl/",
+      href: "http://legendageomorfologie.wur.nl/",
     },
     "Koomen-Maas2004": {
       title:
