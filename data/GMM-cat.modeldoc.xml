@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.46.3"
-      generator-date="2018-08-06T11:19:31Z">
+      generator-date="2018-08-06T11:24:10Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1859,9 +1859,17 @@ De reli?fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1?) 
                            <item>Naam</item>
                            <item>versie</item>
                         </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>De versie van het bestand met hoogte informatie.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
