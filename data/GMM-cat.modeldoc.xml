@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.46.3"
-      generator-date="2018-08-06T09:58:04Z">
+      generator-date="2018-08-06T11:19:31Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -896,6 +896,10 @@
                   <item>Naam</item>
                   <item>ToevoegingBedekkingWaarde</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
             </content>
          </section>
          <section name="ToevoegingReliefWaarde"
@@ -906,6 +910,10 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>ToevoegingReliefWaarde</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-REFERENCEELEMENTS">
@@ -949,6 +957,10 @@
                   <item>Naam</item>
                   <item>Genese</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
             </content>
          </section>
          <section name="Landvormgroep"
@@ -960,18 +972,22 @@
                   <item>Naam</item>
                   <item>Landvormgroep</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
             </content>
          </section>
       </section>
       <section type="OVERVIEW-UNION">
-         <section name="ReliefcodeWaardeUnion"
+         <section name="ReliefcodeWaarde"
                   type="UNION"
-                  id="global_class_Model_ReliefcodeWaardeUnion"
+                  id="global_class_Model_ReliefcodeWaarde"
                   uuid="EAID_BFEEA89D_0D4C_4c95_BC1D_762A18EB6F9B">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>ReliefcodeWaardeUnion</item>
+                  <item>ReliefcodeWaarde</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -992,7 +1008,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ReliefcodeWaardeUnion_reliefCodeDalWaarde">reliefCodeDalWaarde</item>
+                              idref="detail_attribute_Model_ReliefcodeWaarde_reliefCodeDalWaarde">reliefCodeDalWaarde</item>
                      </item>
                      <item/>
                      <item>
@@ -1003,7 +1019,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ReliefcodeWaardeUnion_reliefCodeNietDalWaarde">reliefCodeNietDalWaarde</item>
+                              idref="detail_attribute_Model_ReliefcodeWaarde_reliefCodeNietDalWaarde">reliefCodeNietDalWaarde</item>
                      </item>
                      <item/>
                      <item>
@@ -1250,7 +1266,7 @@ De reli?fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1?) 
                            </part>
                            <part type="CFG-DOC-FORMAAT">
                               <item>Formaat</item>
-                              <item>ReliefcodeWaardeUnion</item>
+                              <item>ReliefcodeWaarde</item>
                            </part>
                         </content>
                      </section>
@@ -1309,9 +1325,17 @@ De reli?fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1?) 
                            <item>Naam</item>
                            <item>toevoeging relief</item>
                         </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>Nadere typering van het reli?f en/of typering van de (relatieve) hoogteligging van de landvormeenheid.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
                         </part>
                         <part type="CFG-DOC-TOELICHTING">
                            <item>Toelichting</item>
@@ -1351,9 +1375,17 @@ De reli?fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1?) 
                            <item>Naam</item>
                            <item>actief proces</item>
                         </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>Onderverdeling van landvormeenheden naar het wel of niet onderhevig zijn aan een actief vormingsproces.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
                         </part>
                         <part type="CFG-DOC-TOELICHTING">
                            <item>Toelichting</item>
@@ -1407,9 +1439,17 @@ De reli?fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1?) 
                               <item>Naam</item>
                               <item>identificatie</item>
                            </part>
+                           <part type="CFG-DOC-HERKOMST">
+                              <item>Herkomst</item>
+                              <item>BRO</item>
+                           </part>
                            <part type="CFG-DOC-DEFINITIE">
                               <item>Definitie</item>
                               <item>De unieke aanduiding van een landvormsubgroep.</item>
+                           </part>
+                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                              <item>Herkomst definitie</item>
+                              <item>BRO</item>
                            </part>
                            <part type="CFG-DOC-TOELICHTING">
                               <item>Toelichting</item>
@@ -1449,9 +1489,17 @@ De reli?fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1?) 
                               <item>Naam</item>
                               <item>landvormgroep</item>
                            </part>
+                           <part type="CFG-DOC-HERKOMST">
+                              <item>Herkomst</item>
+                              <item>BRO</item>
+                           </part>
                            <part type="CFG-DOC-DEFINITIE">
                               <item>Definitie</item>
                               <item>Een groep van landvormen die in hun uiterlijke gedaante bepaalde geomorfologische kenmerken gemeenschappelijk hebben.</item>
+                           </part>
+                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                              <item>Herkomst definitie</item>
+                              <item>BRO</item>
                            </part>
                            <part type="CFG-DOC-TOELICHTING">
                               <item>Toelichting</item>
@@ -1491,9 +1539,17 @@ De reli?fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1?) 
                               <item>Naam</item>
                               <item>genese</item>
                            </part>
+                           <part type="CFG-DOC-HERKOMST">
+                              <item>Herkomst</item>
+                              <item>BRO</item>
+                           </part>
                            <part type="CFG-DOC-DEFINITIE">
                               <item>Definitie</item>
                               <item>De ontstaanswijze van landvormen.</item>
+                           </part>
+                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                              <item>Herkomst definitie</item>
+                              <item>BRO</item>
                            </part>
                            <part type="CFG-DOC-TOELICHTING">
                               <item>Toelichting</item>
@@ -1534,9 +1590,17 @@ De reli?fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1?) 
                            <item>Naam</item>
                            <item>toevoeging bedekking</item>
                         </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>Typering van de landvormsubgroep bedekkende laag.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
                         </part>
                         <part type="CFG-DOC-TOELICHTING">
                            <item>Toelichting</item>
@@ -1749,9 +1813,17 @@ De reli?fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1?) 
                            <item>Naam</item>
                            <item>naam</item>
                         </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>De naam of beschrijving van het bestand met hoogte informatie.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -1877,9 +1949,17 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Naam</item>
                         <item>beginLifespanVersion</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Date and time at which this version of the spatial object was inserted or changed in the spatial data set.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1912,9 +1992,17 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Naam</item>
                         <item>endLifespanVersion</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Date and time at which this version of the spatial object was superseded or retired in the spatial data set.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1927,6 +2015,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2643,6 +2735,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Naam</item>
                         <item>Code</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -2662,6 +2758,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Naam</item>
                         <item>Omschrijving toevoeging reli?f</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -2677,14 +2777,14 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
             <!--removed empty content-->
          </section>
          <section type="DETAILS-UNION">
-            <section name="ReliefcodeWaardeUnion"
+            <section name="ReliefcodeWaarde"
                      type="KEUZE"
-                     id="detail_class_Model_ReliefcodeWaardeUnion"
-                     id-global="global_class_Model_ReliefcodeWaardeUnion">
+                     id="detail_class_Model_ReliefcodeWaarde"
+                     id-global="global_class_Model_ReliefcodeWaarde">
                <section name="reliefCodeDalWaarde"
                         type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_Model_ReliefcodeWaardeUnion_reliefCodeDalWaarde"
-                        id-global="global_attribute_Model_ReliefcodeWaardeUnion_reliefCodeDalWaarde">
+                        id="detail_attribute_Model_ReliefcodeWaarde_reliefCodeDalWaarde"
+                        id-global="global_attribute_Model_ReliefcodeWaarde_reliefCodeDalWaarde">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2702,8 +2802,8 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                </section>
                <section name="reliefCodeNietDalWaarde"
                         type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_Model_ReliefcodeWaardeUnion_reliefCodeNietDalWaarde"
-                        id-global="global_attribute_Model_ReliefcodeWaardeUnion_reliefCodeNietDalWaarde">
+                        id="detail_attribute_Model_ReliefcodeWaarde_reliefCodeNietDalWaarde"
+                        id-global="global_attribute_Model_ReliefcodeWaarde_reliefCodeNietDalWaarde">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
