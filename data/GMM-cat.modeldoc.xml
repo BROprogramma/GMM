@@ -1,0 +1,2830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book name="Geomorfologische Kaart (GMM)"
+      subpath="Conceptual model/Geomorfologische Kaart (GMM)/20180806"
+      type="BASISMODEL"
+      id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
+      generator-version="1.46.3"
+      generator-date="2018-08-06T09:58:04Z">
+   <section type="DOMAIN" name="Model" id="global_package_Model">
+      <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
+         <section type="IMAGEMAP"
+                  name="Geomorfologische Kaart 1:50.000"
+                  id="EAID_160626A1_CCDD_4032_B4D5_D30FF8FE4847">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Geomorfologische Kaart 1:50.000</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item>Ontwerp conceptueel model voor de Geomorfologische kaart, ten behoeve van de Basisregistratie Ondergrond (BRO).</item>
+               </part>
+            </content>
+         </section>
+         <section type="IMAGEMAP"
+                  name="Referentielijsten Geomorfologische Kaart (GMM)"
+                  id="EAID_5DAE70E0_485E_4094_9EE5_0C2EFAA9B0EC">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Referentielijsten Geomorfologische Kaart (GMM)</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+         <section type="IMAGEMAP"
+                  name="Geomorfologische Kaart 1:50.000 (INSPIRE"
+                  id="EAID_0D8E24EC_7A02_4bcf_A95E_167748B0ED09">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Geomorfologische Kaart 1:50.000 (INSPIRE</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item>Ontwerp conceptueel model voor de Geomorfologische kaart, ten behoeve van de Basisregistratie Ondergrond (BRO).</item>
+               </part>
+            </content>
+         </section>
+      </section>
+      <section type="OVERVIEW-OBJECTTYPE">
+         <section name="Geomorfologisch registratieobject"
+                  type="OBJECTTYPE"
+                  id="global_class_Model_GeomorfologischRegistratieobject"
+                  uuid="EAID_E3238A7E_FE1C_43a4_BF66_332ECDEF7681">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Geomorfologisch registratieobject</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+         </section>
+         <section name="Dijk van geomorfologisch belang"
+                  type="OBJECTTYPE"
+                  id="global_class_Model_DijkVanGeomorfologischBelang"
+                  uuid="EAID_843FBABD_EBF0_4f1a_B37D_3D27CF51E1E4">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Dijk van geomorfologisch belang</item>
+               </part>
+               <part type="CFG-DOC-ALTERNATIEVENAAM">
+                  <item>Alternatieve naam</item>
+                  <item>Dijk van geomorfologisch belang</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Dijk van geomorfologisch belang.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>Primaire waterkerende dijken en dijken (bijvoorbeeld in Zeeland) die van belang/invloed zijn (geweest) op de vorming van landvormen. Scheiding tussen landvormen die wel en niet onderhevig zijn aan dynamische -&amp;gt; rivier- en getijde-invloeden.</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_DijkVanGeomorfologischBelang_identificatie">identificatie</item>
+                     </item>
+                     <item>De unieke aanduiding van een Dijk van geomorfologisch belang.</item>
+                     <item>
+                        <item type="global" idref="global_class_Identifier">Identifier</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Dijk van geomorfologisch belang</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_MappedFeature">MappedFeature</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Dijk van geomorfologisch belang</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_MappedFeature">MappedFeature</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Geomorfologisch vlak"
+                  type="OBJECTTYPE"
+                  id="global_class_Model_GeomorfologischVlak"
+                  uuid="EAID_79B1980D_BA7A_45db_8EF1_F9DCFF6B5389">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Geomorfologisch vlak</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een begrensd gebied met overeenkomstige geomorfologische kenmerken</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>de begrenzing is de 2D afbeelding van het 3D lichaam (landvorm) op het aardoppervlak (maaiveld), zodat het als kaart is te gebruiken</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischVlak_identificatie">identificatie</item>
+                     </item>
+                     <item>De unieke aanduiding van een Geomorfologisch vlak.</item>
+                     <item>
+                        <item type="global" idref="global_class_Identifier">Identifier</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSER">
+                     <item>
+                        <value>
+                           <item type="detail" idref="detail_class_Model_Landvormeenheid">landvormeenheid</item>
+                        </value>
+                     </item>
+                     <item>
+                        <value>Een landvormeenheid geclassificeerd aan de hand van 7 geomorfologische kenmerken.</value>
+                     </item>
+                     <item/>
+                     <item>
+                        <value>1</value>
+                     </item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Landvormeenheid_relief">relief</item>
+                     </item>
+                     <item>Typering van de verticale dimensie van de landvormeenheid.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_ReliefType">ReliefType</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_Landvormeenheid_toevoegingRelief">toevoeging relief</item>
+                     </item>
+                     <item>Nadere typering van het reli?f en/of typering van de (relatieve) hoogteligging van de landvormeenheid.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_ToevoegingReliefWaarde">ToevoegingReliefWaarde</item>
+                     </item>
+                     <item>0 .. 2</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_Landvormeenheid_actiefProces">actief proces</item>
+                     </item>
+                     <item>Onderverdeling van landvormeenheden naar het wel of niet onderhevig zijn aan een actief vormingsproces.</item>
+                     <item>
+                        <item type="global">Boolean</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_Landvormeenheid_landvormSubgroep">landvorm subgroep</item>
+                     </item>
+                     <item>Vormen binnen de landvormgroep en dezelfde genese, maar met andere specifieke vormkenmerken.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_LandvormSubgroepType">LandvormSubgroepType</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_Landvormeenheid_toevoegingBedekking">toevoeging bedekking</item>
+                     </item>
+                     <item>Typering van de landvormsubgroep bedekkende laag.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_ToevoegingBedekkingWaarde">ToevoegingBedekkingWaarde</item>
+                     </item>
+                     <item>0 .. 3</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Geomorfologisch vlak</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_MappedFeature">MappedFeature</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Geomorfologisch vlak</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_MappedFeature">MappedFeature</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Geomorfologische vlakcollectie"
+                  type="OBJECTTYPE"
+                  id="global_class_Model_GeomorfologischeVlakcollectie"
+                  uuid="EAID_1A180318_ED48_404f_BF37_B130C4BF1BD8">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Geomorfologische vlakcollectie</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De documentatie van een verzameling van bij elkaar horende geomorfologische kaartvlakken.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De website met de toelichting bji de geomorfologische kaart en de beschrijvende rapportages bij actualisaties.</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeVlakcollectie_identificatie">identificatie</item>
+                     </item>
+                     <item>De unieke identificatie van een Geomorfologische vlakcollectie.</item>
+                     <item>
+                        <item type="global" idref="global_class_Identifier">Identifier</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeVlakcollectie_naam">naam</item>
+                     </item>
+                     <item>De naam van de verzameling.</item>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeVlakcollectie_soort">soort</item>
+                     </item>
+                     <item>De soort verzameling van het model.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_Soort">Soort</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeVlakcollectie_inventarisatiemethode">inventarisatiemethode</item>
+                     </item>
+                     <item>De inventarisatiemethode die is gebruikt.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_Inventarisatiemethode">Inventarisatiemethode</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeVlakcollectie_beginLifespanVersion">beginLifespanVersion</item>
+                     </item>
+                     <item>Date and time at which this version of the spatial object was inserted or changed in the spatial data set.</item>
+                     <item>
+                        <item type="global">DatumTijd</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeVlakcollectie_endLifespanVersion">endLifespanVersion</item>
+                     </item>
+                     <item>Date and time at which this version of the spatial object was superseded or retired in the spatial data set.</item>
+                     <item>
+                        <item type="global">DatumTijd</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part type="COMPOSER">
+                     <item>
+                        <value>
+                           <item type="detail" idref="detail_class_Model_Bestand">bron</item>
+                        </value>
+                     </item>
+                     <item>
+                        <value>De typering van de hoogte informatie.</value>
+                     </item>
+                     <item/>
+                     <item>
+                        <value>1</value>
+                     </item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Bestand_naam">naam</item>
+                     </item>
+                     <item>De naam of beschrijving van het bestand met hoogte informatie.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_NaamBestand">NaamBestand</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Bestand_versie">versie</item>
+                     </item>
+                     <item>De versie van het bestand met hoogte informatie.</item>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Geomorfologische vlakcollectie</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_Model_GeomorfologischRegistratieobject">Geomorfologisch registratieobject</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische vlakcollectie</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_vlak">beschrijft: vlak</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item>Een Geomorfolische vlakcollectie beschrijft ??n of meer geomorfologische vlakken.</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische vlakcollectie</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie">is gedocumenteerd in</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_CI_Citation">CI_Citation</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item>Een geomorfologische vlakcollectie is gedocumenteerd in een Citation.</item>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Geomorfologische vlakcollectie</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_Model_GeomorfologischRegistratieobject">Geomorfologisch registratieobject</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische vlakcollectie</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_vlak">beschrijft: vlak</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische vlakcollectie bestaat.</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische vlakcollectie</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie">is gedocumenteerd in</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_CI_Citation">CI_Citation</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Geomorfologische kaart"
+                  type="OBJECTTYPE"
+                  id="global_class_Model_GeomorfologischeKaart"
+                  uuid="EAID_6153A93B_5EF8_4e22_8EEC_7CF612ACE3D6">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Geomorfologische kaart</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Model (kaart) met informatie over de geomorfologie in Nederland op schaal 1:50.000.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>geomorfologie</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeKaart_identificatie">identificatie</item>
+                     </item>
+                     <item>De unieke aanduiding van de geomorfologische kaart.</item>
+                     <item>
+                        <item type="global" idref="global_class_Identifier">Identifier</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeKaart_bereik">bereik</item>
+                     </item>
+                     <item>De omhullende begrenzing van het gebied waar het model geheel binnen valt.</item>
+                     <item>
+                        <item type="global" idref="global_class_EX_Extent">EX_Extent</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeKaart_schaal">schaal</item>
+                     </item>
+                     <item>De schaal waarop de gegevens zijn ingewonnen.</item>
+                     <item>
+                        <item type="global">Integer</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Geomorfologische kaart</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_Model_GeomorfologischRegistratieobject">Geomorfologisch registratieobject</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische kaart</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeKaart_vlak">bestaat uit: vlak</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item>Een geomorfologische kaart bestaat uit ??n of meer geomorfologische vlakken.</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische kaart</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeKaart_dijk">bestaat uit: dijk</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Model_DijkVanGeomorfologischBelang">Dijk van geomorfologisch belang</item>
+                        </item>
+                        <item>[ 1 .. * ]</item>
+                     </item>
+                     <item>Een Geomorfologische kaart bestaat uit ??n of meer dijken van geomorfologisch belang.</item>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Geomorfologische kaart</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_Model_GeomorfologischRegistratieobject">Geomorfologisch registratieobject</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische kaart</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeKaart_vlak">bestaat uit: vlak</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische kaart bestaat.</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische kaart</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeKaart_dijk">bestaat uit: dijk</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Model_DijkVanGeomorfologischBelang">Dijk van geomorfologisch belang</item>
+                        </item>
+                        <item>[ 1 .. * ]</item>
+                     </item>
+                     <item>De unieke aanduiding van elke Dijk van geomorfologisch belang waaruit de Geomorfologische kaart bestaat.</item>
+                  </part>
+               </content>
+            </section>
+         </section>
+      </section>
+      <!--removed empty content-->
+      <section type="OVERVIEW-REFERENCELIST">
+         <section name="GeneseWaarde"
+                  type="REFERENCELIST"
+                  id="global_class_Model_GeneseWaarde"
+                  uuid="EAID_3C0C8EB6_5C3D_4f87_B36C_DBB03EADAEEF">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>GeneseWaarde</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+            <section type="SHORT-REFERENCEELEMENTS">
+               <content>
+                  <itemtype/>
+                  <itemtype type="REFERENCEELEMENT-NAME"/>
+                  <itemtype type="REFERENCEELEMENT-DEFINITION"/>
+                  <itemtype type="REFERENCEELEMENT-FORMAT"/>
+                  <itemtype type="REFERENCEELEMENT-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_GeneseWaarde_code">Code</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeneseWaarde_vormbepalendeFactoren">Vormbepalende factoren</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="ReliefCodeDalWaarde"
+                  type="REFERENCELIST"
+                  id="global_class_Model_ReliefCodeDalWaarde"
+                  uuid="EAID_B5349C0D_1947_43e3_9101_31A2C7879207">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>ReliefCodeDalWaarde</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+            <section type="SHORT-REFERENCEELEMENTS">
+               <content>
+                  <itemtype/>
+                  <itemtype type="REFERENCEELEMENT-NAME"/>
+                  <itemtype type="REFERENCEELEMENT-DEFINITION"/>
+                  <itemtype type="REFERENCEELEMENT-FORMAT"/>
+                  <itemtype type="REFERENCEELEMENT-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ReliefCodeDalWaarde_diepteTovOmgevingM">Diepte t.o.v. omgeving (m)</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ReliefCodeDalWaarde_steilsteVerhang">Steilste verhang</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ReliefCodeDalWaarde_maximaalHoogteverschilBinnenDeVormM">Maximaal hoogteverschil binnen de vorm (m)</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ReliefCodeDalWaarde_maximaalVervalM">Maximaal verval (m)</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_ReliefCodeDalWaarde_code">Code</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="ReliefCodeNietDalWaarde"
+                  type="REFERENCELIST"
+                  id="global_class_Model_ReliefCodeNietDalWaarde"
+                  uuid="EAID_2B60D3DD_9A53_48d9_9598_759BDEFE7BB2">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>ReliefCodeNietDalWaarde</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+            <section type="SHORT-REFERENCEELEMENTS">
+               <content>
+                  <itemtype/>
+                  <itemtype type="REFERENCEELEMENT-NAME"/>
+                  <itemtype type="REFERENCEELEMENT-DEFINITION"/>
+                  <itemtype type="REFERENCEELEMENT-FORMAT"/>
+                  <itemtype type="REFERENCEELEMENT-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ReliefCodeNietDalWaarde_reliF">Reli?f</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ReliefCodeNietDalWaarde_helling">Helling</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ReliefCodeNietDalWaarde_lokaalMaximaalHoogteverschilM">Lokaal maximaal hoogteverschil (m)</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ReliefCodeNietDalWaarde_code">Code</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="ToevoegingBedekkingWaarde"
+                  type="REFERENCELIST"
+                  id="global_class_Model_ToevoegingBedekkingWaarde"
+                  uuid="EAID_AC9144D6_B00D_4e0a_A506_61C3ECCB8DE3">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>ToevoegingBedekkingWaarde</item>
+               </part>
+            </content>
+         </section>
+         <section name="ToevoegingReliefWaarde"
+                  type="REFERENCELIST"
+                  id="global_class_Model_ToevoegingReliefWaarde"
+                  uuid="EAID_BFADB646_F358_4f7e_A54C_E985A8724C21">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>ToevoegingReliefWaarde</item>
+               </part>
+            </content>
+            <section type="SHORT-REFERENCEELEMENTS">
+               <content>
+                  <itemtype/>
+                  <itemtype type="REFERENCEELEMENT-NAME"/>
+                  <itemtype type="REFERENCEELEMENT-DEFINITION"/>
+                  <itemtype type="REFERENCEELEMENT-FORMAT"/>
+                  <itemtype type="REFERENCEELEMENT-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ToevoegingReliefWaarde_code">Code</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ToevoegingReliefWaarde_omschrijvingToevoegingReliF">Omschrijving toevoeging reli?f</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Genese"
+                  type="REFERENCELIST"
+                  id="global_class_Model_Genese"
+                  uuid="EAID_4972A1BF_BA8F_4b75_9E06_2E7EC6B7ADC3">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Genese</item>
+               </part>
+            </content>
+         </section>
+         <section name="Landvormgroep"
+                  type="REFERENCELIST"
+                  id="global_class_Model_Landvormgroep"
+                  uuid="EAID_A3898E34_ECC1_4419_8C60_C60D330F14EE">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Landvormgroep</item>
+               </part>
+            </content>
+         </section>
+      </section>
+      <section type="OVERVIEW-UNION">
+         <section name="ReliefcodeWaardeUnion"
+                  type="UNION"
+                  id="global_class_Model_ReliefcodeWaardeUnion"
+                  uuid="EAID_BFEEA89D_0D4C_4c95_BC1D_762A18EB6F9B">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>ReliefcodeWaardeUnion</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een samengestelde waardes voor reliefcode waarbij een gekeuze gemaakt moet worden tussen dalwaarde (ReliefCodeDalWaarde) en niet-dalwaarde (ReliefCodeNietDalWaarde).</item>
+               </part>
+            </content>
+            <section type="SHORT-UNIONELEMENTS">
+               <content>
+                  <itemtype/>
+                  <itemtype type="UNIONELEMENT-NAME"/>
+                  <itemtype type="UNIONELEMENT-DEFINITION"/>
+                  <itemtype type="UNIONELEMENT-FORMAT"/>
+                  <itemtype type="UNIONELEMENT-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ReliefcodeWaardeUnion_reliefCodeDalWaarde">reliefCodeDalWaarde</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Model_ReliefCodeDalWaarde">ReliefCodeDalWaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ReliefcodeWaardeUnion_reliefCodeNietDalWaarde">reliefCodeNietDalWaarde</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Model_ReliefCodeNietDalWaarde">ReliefCodeNietDalWaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+         </section>
+      </section>
+      <!--removed empty content-->
+      <section type="OVERVIEW-PRIMITIVEDATATYPE">
+         <section name="ReliefKlasseWaarde"
+                  type="PRIMITIVEDATATYPE"
+                  id="global_class_Model_ReliefKlasseWaarde"
+                  uuid="EAID_E609F8B8_95AB_42bb_9DC1_791CDE4F3E44">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>ReliefKlasseWaarde</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Graag specificeren</item>
+               </part>
+            </content>
+         </section>
+      </section>
+      <section type="OVERVIEW-CODELIST">
+         <content>
+            <part>
+               <item id="global_class_Model_ReliefCodeWaarde"
+                     uuid="EAID_5617102D_285A_4b65_BDB5_FDACF58CCE44"
+                     idref="detail_class_Model_ReliefCodeWaarde">ReliefCodeWaarde</item>
+               <item/>
+            </part>
+            <part>
+               <item id="global_class_Model_Inventarisatiemethode"
+                     uuid="EAID_6AA66C6F_7448_474d_9B1D_7CCF1FB995EF"
+                     idref="detail_class_Model_Inventarisatiemethode">Inventarisatiemethode</item>
+               <item/>
+            </part>
+         </content>
+      </section>
+      <section type="OVERVIEW-ENUMERATION">
+         <content>
+            <part>
+               <item id="global_class_Model_NaamBestand"
+                     uuid="EAID_4BE35D48_AB17_4be7_A6A3_ABE09E5258D5"
+                     idref="detail_class_Model_NaamBestand">NaamBestand</item>
+               <item/>
+            </part>
+            <part>
+               <item id="global_class_Model_Soort"
+                     uuid="EAID_A30462D2_BDF4_4d87_AA1D_39859ADB2E90"
+                     idref="detail_class_Model_Soort">Soort</item>
+               <item/>
+            </part>
+         </content>
+      </section>
+      <section type="DETAILS">
+         <section type="DETAILS-OBJECTTYPE"><!--removed empty content-->
+            <section name="Dijk van geomorfologisch belang"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_DijkVanGeomorfologischBelang"
+                     id-global="global_class_Model_DijkVanGeomorfologischBelang">
+               <section name="identificatie"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_DijkVanGeomorfologischBelang_identificatie"
+                        id-global="global_attribute_Model_DijkVanGeomorfologischBelang_identificatie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>identificatie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De unieke aanduiding van een Dijk van geomorfologisch belang.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Een externe object-ID is een unieke object-identifier die door de verantwoordelijke instantie is gepubliceerd en die door externe toepassingen kan worden gebruikt om naar het ruimtelijke object te verwijzen. De identifier is een identifier van het ruimtelijke object en niet een identifier van het fenomeen in de echte wereld.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Identifier</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Geomorfologisch vlak"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_GeomorfologischVlak"
+                     id-global="global_class_Model_GeomorfologischVlak">
+               <section name="identificatie"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischVlak_identificatie"
+                        id-global="global_attribute_Model_GeomorfologischVlak_identificatie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>identificatie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De unieke aanduiding van een Geomorfologisch vlak.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Een externe object-ID is een unieke object-identifier die door de verantwoordelijke instantie is gepubliceerd en die door externe toepassingen kan worden gebruikt om naar het ruimtelijke object te verwijzen. De identifier is een identifier van het ruimtelijke object en niet een identifier van het fenomeen in de echte wereld.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Identifier</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Landvormeenheid"
+                        type="DETAIL-COMPOSITE"
+                        id="detail_class_Model_Landvormeenheid"
+                        id-global="global_class_Model_Landvormeenheid">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Landvormeenheid</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Een landvormeenheid geclassificeerd aan de hand van 7 geomorfologische kenmerken.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Deze 7 kenmerken zijn als eigenschappen toegevoegd aan dit object.
+EXAMPLE 22R21dl
+De reli?fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1?) en een zeer geringe hoogteverschillen binnen de landvorm (? tot ?m). De R in de code staat voor de vormgroep dalen. Code 2 in het onderdeel genese geeft aan dat het een dal is dat hoofdzakelijk is ontstaan door erosie onder periglaciale omstandigheden, waarbij de ondergrond permanent bevroren was (permafrost), en periodiek overvloedige hoeveelheden sneeuwsmeltwater afstroomden. De landvormcode 1 geeft in combinatie met de vormgroep- en genesecode aan dat het de landvorm droogdal betreft. De lettercombinatie dl in het onderdeel toevoeging geeft weer dat de landvorm bedekt of (gedeeltelijk) opgevuld is met dekzand of (zandige)l?ss. Er is bij deze landvorm geen morfologisch proces actief.</item>
+                     </part>
+                  </content>
+                  <section name="ReliefType"
+                           type="DETAIL-COMPOSITE"
+                           id="detail_class_Model_ReliefType"
+                           id-global="global_class_Model_ReliefType">
+                     <content>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>ReliefType</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Typering van de verticale dimensie van de landvormeenheid.</item>
+                        </part>
+                     </content>
+                     <section name="reliefCode"
+                              type="DETAIL-COMPOSITE-ATTRIBUTE"
+                              id="detail_attribute_Model_ReliefType_reliefCode"
+                              id-global="global_attribute_Model_ReliefType_reliefCode">
+                        <content>
+                           <part type="COMPOSER">
+                              <item type="global" idref="global_class_Model_ReliefType">ReliefType</item>
+                           </part>
+                           <part type="CFG-DOC-NAAM">
+                              <item>Naam</item>
+                              <item>reliefCode</item>
+                           </part>
+                           <part type="CFG-DOC-HERKOMST">
+                              <item>Herkomst</item>
+                              <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                              <item>Herkomst definitie</item>
+                              <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                              <item>Mogelijk geen waarde</item>
+                              <item>Nee</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                              <item>Indicatie formele historie</item>
+                              <item>Ja</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                              <item>Indicatie kardinaliteit</item>
+                              <item>1</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Ja</item>
+                           </part>
+                           <part type="CFG-DOC-FORMAAT">
+                              <item>Formaat</item>
+                              <item>ReliefcodeWaardeUnion</item>
+                           </part>
+                        </content>
+                     </section>
+                     <section name="reliefKlasse"
+                              type="DETAIL-COMPOSITE-ATTRIBUTE"
+                              id="detail_attribute_Model_ReliefType_reliefKlasse"
+                              id-global="global_attribute_Model_ReliefType_reliefKlasse">
+                        <content>
+                           <part type="COMPOSER">
+                              <item type="global" idref="global_class_Model_ReliefType">ReliefType</item>
+                           </part>
+                           <part type="CFG-DOC-NAAM">
+                              <item>Naam</item>
+                              <item>reliefKlasse</item>
+                           </part>
+                           <part type="CFG-DOC-HERKOMST">
+                              <item>Herkomst</item>
+                              <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                              <item>Herkomst definitie</item>
+                              <item>BRO</item>
+                           </part>
+                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                              <item>Mogelijk geen waarde</item>
+                              <item>Nee</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                              <item>Indicatie formele historie</item>
+                              <item>Ja</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                              <item>Indicatie kardinaliteit</item>
+                              <item>1</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Ja</item>
+                           </part>
+                           <part type="CFG-DOC-FORMAAT">
+                              <item>Formaat</item>
+                              <item> ReliefKlasseWaarde</item>
+                           </part>
+                        </content>
+                     </section>
+                  </section>
+                  <section name="toevoeging relief"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_Landvormeenheid_toevoegingRelief"
+                           id-global="global_attribute_Model_Landvormeenheid_toevoegingRelief">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_Landvormeenheid">Landvormeenheid</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>toevoeging relief</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Nadere typering van het reli?f en/of typering van de (relatieve) hoogteligging van de landvormeenheid.</item>
+                        </part>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>De toevoeging reli?f geeft aanvullende informatie over het reli?f en/of (relatieve) hoogteligging van de landvormsubgroep en eventuele bedekking.</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>0 .. 2</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>ToevoegingReliefWaarde</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="actief proces"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_Landvormeenheid_actiefProces"
+                           id-global="global_attribute_Model_Landvormeenheid_actiefProces">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_Landvormeenheid">Landvormeenheid</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>actief proces</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Onderverdeling van landvormeenheden naar het wel of niet onderhevig zijn aan een actief vormingsproces.</item>
+                        </part>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Indien er geomorfologische processen actief op een landvorm inwerken wordt dit in dit attribuut aangegeven.</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Boolean</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="LandvormSubgroepType"
+                           type="DETAIL-COMPOSITE"
+                           id="detail_class_Model_LandvormSubgroepType"
+                           id-global="global_class_Model_LandvormSubgroepType">
+                     <content>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>LandvormSubgroepType</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Vormen binnen de landvormgroep en dezelfde genese, maar met andere specifieke vormkenmerken.</item>
+                        </part>
+                     </content>
+                     <section name="identificatie"
+                              type="DETAIL-COMPOSITE-ATTRIBUTE"
+                              id="detail_attribute_Model_LandvormSubgroepType_identificatie"
+                              id-global="global_attribute_Model_LandvormSubgroepType_identificatie">
+                        <content>
+                           <part type="COMPOSER">
+                              <item type="global" idref="global_class_Model_LandvormSubgroepType">LandvormSubgroepType</item>
+                           </part>
+                           <part type="CFG-DOC-NAAM">
+                              <item>Naam</item>
+                              <item>identificatie</item>
+                           </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>De unieke aanduiding van een landvormsubgroep.</item>
+                           </part>
+                           <part type="CFG-DOC-TOELICHTING">
+                              <item>Toelichting</item>
+                              <item>Landvormgroepen worden op basis van genese en vormkenmerken verder onderverdeeld in landvormsubgroepen.</item>
+                           </part>
+                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                              <item>Mogelijk geen waarde</item>
+                              <item>Nee</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                              <item>Indicatie formele historie</item>
+                              <item>Nee</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                              <item>Indicatie kardinaliteit</item>
+                              <item>1</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Ja</item>
+                           </part>
+                           <part type="CFG-DOC-FORMAAT">
+                              <item>Formaat</item>
+                              <item>Identifier</item>
+                           </part>
+                        </content>
+                     </section>
+                     <section name="landvormgroep"
+                              type="DETAIL-COMPOSITE-ATTRIBUTE"
+                              id="detail_attribute_Model_LandvormSubgroepType_landvormgroep"
+                              id-global="global_attribute_Model_LandvormSubgroepType_landvormgroep">
+                        <content>
+                           <part type="COMPOSER">
+                              <item type="global" idref="global_class_Model_LandvormSubgroepType">LandvormSubgroepType</item>
+                           </part>
+                           <part type="CFG-DOC-NAAM">
+                              <item>Naam</item>
+                              <item>landvormgroep</item>
+                           </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>Een groep van landvormen die in hun uiterlijke gedaante bepaalde geomorfologische kenmerken gemeenschappelijk hebben.</item>
+                           </part>
+                           <part type="CFG-DOC-TOELICHTING">
+                              <item>Toelichting</item>
+                              <item>Een groep van landvormen die in hun uiterlijke gedaante bepaalde geomorfologische kenmerken gemeenschappelijk hebben.</item>
+                           </part>
+                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                              <item>Mogelijk geen waarde</item>
+                              <item>Nee</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                              <item>Indicatie formele historie</item>
+                              <item>Ja</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                              <item>Indicatie kardinaliteit</item>
+                              <item>1</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Ja</item>
+                           </part>
+                           <part type="CFG-DOC-FORMAAT">
+                              <item>Formaat</item>
+                              <item>Landvormgroep</item>
+                           </part>
+                        </content>
+                     </section>
+                     <section name="genese"
+                              type="DETAIL-COMPOSITE-ATTRIBUTE"
+                              id="detail_attribute_Model_LandvormSubgroepType_genese"
+                              id-global="global_attribute_Model_LandvormSubgroepType_genese">
+                        <content>
+                           <part type="COMPOSER">
+                              <item type="global" idref="global_class_Model_LandvormSubgroepType">LandvormSubgroepType</item>
+                           </part>
+                           <part type="CFG-DOC-NAAM">
+                              <item>Naam</item>
+                              <item>genese</item>
+                           </part>
+                           <part type="CFG-DOC-DEFINITIE">
+                              <item>Definitie</item>
+                              <item>De ontstaanswijze van landvormen.</item>
+                           </part>
+                           <part type="CFG-DOC-TOELICHTING">
+                              <item>Toelichting</item>
+                              <item>Landvormgroepen worden op basis van genese onderverdeeld. Er zijn 10 genetische processen die van invloed kunnen zijn op de landvorm.</item>
+                           </part>
+                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                              <item>Mogelijk geen waarde</item>
+                              <item>Nee</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                              <item>Indicatie formele historie</item>
+                              <item>Ja</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                              <item>Indicatie kardinaliteit</item>
+                              <item>1</item>
+                           </part>
+                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                              <item>Indicatie authentiek</item>
+                              <item>Ja</item>
+                           </part>
+                           <part type="CFG-DOC-FORMAAT">
+                              <item>Formaat</item>
+                              <item>Genese</item>
+                           </part>
+                        </content>
+                     </section>
+                  </section>
+                  <section name="toevoeging bedekking"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_Landvormeenheid_toevoegingBedekking"
+                           id-global="global_attribute_Model_Landvormeenheid_toevoegingBedekking">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_Landvormeenheid">Landvormeenheid</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>toevoeging bedekking</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Typering van de landvormsubgroep bedekkende laag.</item>
+                        </part>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Met deze toevoeging wordt aanvullende informatie geven over afwijkende sedimentpakketten die van invloed zijn op de uiterlijke reli?fkenmerken van de landvormsubgroep.</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>0 .. 3</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>ToevoegingBedekkingWaarde</item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+            </section>
+            <section name="Geomorfologische vlakcollectie"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_GeomorfologischeVlakcollectie"
+                     id-global="global_class_Model_GeomorfologischeVlakcollectie">
+               <section name="identificatie"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeVlakcollectie_identificatie"
+                        id-global="global_attribute_Model_GeomorfologischeVlakcollectie_identificatie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>identificatie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De unieke identificatie van een Geomorfologische vlakcollectie.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Identifier</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="naam"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeVlakcollectie_naam"
+                        id-global="global_attribute_Model_GeomorfologischeVlakcollectie_naam">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>naam</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De naam van de verzameling.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>de unieke identificatie van een deelverzameling van het model (kaart) bijvoorbeeld het kaartbladnummer of de naam van het project.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="soort"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeVlakcollectie_soort"
+                        id-global="global_attribute_Model_GeomorfologischeVlakcollectie_soort">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>soort</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De soort verzameling van het model.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>de documentatie van een verzameling bij elkaar horende geomorfologische kaartvlakken. Bijvoorbeeld in de vorm van beschrijvende rapportage bij actualisaties</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Soort</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Bestand"
+                        type="DETAIL-COMPOSITE"
+                        id="detail_class_Model_Bestand"
+                        id-global="global_class_Model_Bestand">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Bestand</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De typering van de hoogte informatie.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De naam en versie van het bestand met hoogte informatie dat, binnen een GeomorfologischVlakCollectie, is gebruikt bij het afbakenen en classificeren van de GeomorfologischeVlakken.</item>
+                     </part>
+                  </content>
+                  <section name="naam"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_Bestand_naam"
+                           id-global="global_attribute_Model_Bestand_naam">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_Bestand">Bestand</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>naam</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>De naam of beschrijving van het bestand met hoogte informatie.</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>NaamBestand</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="versie"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_Bestand_versie"
+                           id-global="global_attribute_Model_Bestand_versie">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_Bestand">Bestand</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>versie</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>De versie van het bestand met hoogte informatie.</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>CHARACTERSTRING</item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+               <section name="inventarisatiemethode"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeVlakcollectie_inventarisatiemethode"
+                        id-global="global_attribute_Model_GeomorfologischeVlakcollectie_inventarisatiemethode">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>inventarisatiemethode</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De inventarisatiemethode die is gebruikt.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Als kartering oude stijl is dan is de hoogtepunten kaart (schaal 1:10 000) gebruikt niet vastgelegd is welke versie, dus het attribuut versie is voidable.
+
+De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfologisch vlakcollectie, is gebruikt bij het afbakenen en classificeren van de Geomorfologische vlakken.
+</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Inventarisatiemethode</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="beginLifespanVersion"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeVlakcollectie_beginLifespanVersion"
+                        id-global="global_attribute_Model_GeomorfologischeVlakcollectie_beginLifespanVersion">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>beginLifespanVersion</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Date and time at which this version of the spatial object was inserted or changed in the spatial data set.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DatumTijd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="endLifespanVersion"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeVlakcollectie_endLifespanVersion"
+                        id-global="global_attribute_Model_GeomorfologischeVlakcollectie_endLifespanVersion">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>endLifespanVersion</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Date and time at which this version of the spatial object was superseded or retired in the spatial data set.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DatumTijd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="beschrijft"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Model_GeomorfologischeVlakcollectie_vlak"
+                        id-global="global_association_Model_GeomorfologischeVlakcollectie_vlak">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>beschrijft</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Een Geomorfolische vlakcollectie beschrijft ??n of meer geomorfologische vlakken.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>beschrijft</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische vlakcollectie bestaat.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="is gedocumenteerd in"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Model_GeomorfologischeVlakcollectie"
+                        id-global="global_association_Model_GeomorfologischeVlakcollectie">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>is gedocumenteerd in</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Een geomorfologische vlakcollectie is gedocumenteerd in een Citation.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_CI_Citation">CI_Citation</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>is gedocumenteerd in</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_CI_Citation">CI_Citation</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Geomorfologische kaart"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_GeomorfologischeKaart"
+                     id-global="global_class_Model_GeomorfologischeKaart">
+               <section name="identificatie"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeKaart_identificatie"
+                        id-global="global_attribute_Model_GeomorfologischeKaart_identificatie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>identificatie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De unieke aanduiding van de geomorfologische kaart.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Identifier</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="bereik"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeKaart_bereik"
+                        id-global="global_attribute_Model_GeomorfologischeKaart_bereik">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bereik</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>ISO 19115:2006 Metadata (Corrigendum)</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De omhullende begrenzing van het gebied waar het model geheel binnen valt.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>ISO 19115:2006</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De begrenzing is aangegeven door een rechthoek met de linker bovenhoek en rechter onderhoek.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>EX_Extent</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="schaal"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeKaart_schaal"
+                        id-global="global_attribute_Model_GeomorfologischeKaart_schaal">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>schaal</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De schaal waarop de gegevens zijn ingewonnen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De kaartschaal van de geomorfologische kaart is 1:50.000, waarop de karteermethode en nauwkeurigheid (detaillering van de gebruikte classificatie) is afgestemd
+</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Integer</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="bestaat uit"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Model_GeomorfologischeKaart_vlak"
+                        id-global="global_association_Model_GeomorfologischeKaart_vlak">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bestaat uit</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Een geomorfologische kaart bestaat uit ??n of meer geomorfologische vlakken.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bestaat uit</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische kaart bestaat.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="bestaat uit"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Model_GeomorfologischeKaart_dijk"
+                        id-global="global_association_Model_GeomorfologischeKaart_dijk">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bestaat uit</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Een Geomorfologische kaart bestaat uit ??n of meer dijken van geomorfologisch belang.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_DijkVanGeomorfologischBelang">Dijk van geomorfologisch belang</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bestaat uit</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De unieke aanduiding van elke Dijk van geomorfologisch belang waaruit de Geomorfologische kaart bestaat.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_DijkVanGeomorfologischBelang">Dijk van geomorfologisch belang</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+         </section>
+         <!--removed empty content-->
+         <section type="DETAILS-REFERENCELIST">
+            <section name="GeneseWaarde"
+                     type="REFERENTIELIJST"
+                     id="detail_class_Model_GeneseWaarde"
+                     id-global="global_class_Model_GeneseWaarde">
+               <section name="Code"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_GeneseWaarde_code"
+                        id-global="global_attribute_Model_GeneseWaarde_code">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Code</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Vormbepalende factoren"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_GeneseWaarde_vormbepalendeFactoren"
+                        id-global="global_attribute_Model_GeneseWaarde_vormbepalendeFactoren">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Vormbepalende factoren</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="ReliefCodeDalWaarde"
+                     type="REFERENTIELIJST"
+                     id="detail_class_Model_ReliefCodeDalWaarde"
+                     id-global="global_class_Model_ReliefCodeDalWaarde">
+               <section name="Diepte t.o.v. omgeving (m)"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ReliefCodeDalWaarde_diepteTovOmgevingM"
+                        id-global="global_attribute_Model_ReliefCodeDalWaarde_diepteTovOmgevingM">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Diepte t.o.v. omgeving (m)</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Steilste verhang"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ReliefCodeDalWaarde_steilsteVerhang"
+                        id-global="global_attribute_Model_ReliefCodeDalWaarde_steilsteVerhang">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Steilste verhang</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Maximaal hoogteverschil binnen de vorm (m)"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ReliefCodeDalWaarde_maximaalHoogteverschilBinnenDeVormM"
+                        id-global="global_attribute_Model_ReliefCodeDalWaarde_maximaalHoogteverschilBinnenDeVormM">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Maximaal hoogteverschil binnen de vorm (m)</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Maximaal verval (m)"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ReliefCodeDalWaarde_maximaalVervalM"
+                        id-global="global_attribute_Model_ReliefCodeDalWaarde_maximaalVervalM">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Maximaal verval (m)</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Code"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ReliefCodeDalWaarde_code"
+                        id-global="global_attribute_Model_ReliefCodeDalWaarde_code">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Code</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="ReliefCodeNietDalWaarde"
+                     type="REFERENTIELIJST"
+                     id="detail_class_Model_ReliefCodeNietDalWaarde"
+                     id-global="global_class_Model_ReliefCodeNietDalWaarde">
+               <section name="Reli?f"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ReliefCodeNietDalWaarde_reliF"
+                        id-global="global_attribute_Model_ReliefCodeNietDalWaarde_reliF">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Reli?f</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>Referentie element</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Helling"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ReliefCodeNietDalWaarde_helling"
+                        id-global="global_attribute_Model_ReliefCodeNietDalWaarde_helling">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Helling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>Referentie element</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Lokaal maximaal hoogteverschil (m)"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ReliefCodeNietDalWaarde_lokaalMaximaalHoogteverschilM"
+                        id-global="global_attribute_Model_ReliefCodeNietDalWaarde_lokaalMaximaalHoogteverschilM">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Lokaal maximaal hoogteverschil (m)</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>Referentie element</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Code"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ReliefCodeNietDalWaarde_code"
+                        id-global="global_attribute_Model_ReliefCodeNietDalWaarde_code">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Code</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>Referentie element</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <!--removed empty content-->
+            <section name="ToevoegingReliefWaarde"
+                     type="REFERENTIELIJST"
+                     id="detail_class_Model_ToevoegingReliefWaarde"
+                     id-global="global_class_Model_ToevoegingReliefWaarde">
+               <section name="Code"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ToevoegingReliefWaarde_code"
+                        id-global="global_attribute_Model_ToevoegingReliefWaarde_code">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Code</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Omschrijving toevoeging reli?f"
+                        type="DETAIL-REFERENCEELEMENT"
+                        id="detail_attribute_Model_ToevoegingReliefWaarde_omschrijvingToevoegingReliF"
+                        id-global="global_attribute_Model_ToevoegingReliefWaarde_omschrijvingToevoegingReliF">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Omschrijving toevoeging reli?f</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <!--removed empty content-->
+            <!--removed empty content-->
+         </section>
+         <section type="DETAILS-UNION">
+            <section name="ReliefcodeWaardeUnion"
+                     type="KEUZE"
+                     id="detail_class_Model_ReliefcodeWaardeUnion"
+                     id-global="global_class_Model_ReliefcodeWaardeUnion">
+               <section name="reliefCodeDalWaarde"
+                        type="DETAIL-UNIONELEMENT"
+                        id="detail_attribute_Model_ReliefcodeWaardeUnion_reliefCodeDalWaarde"
+                        id-global="global_attribute_Model_ReliefcodeWaardeUnion_reliefCodeDalWaarde">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>reliefCodeDalWaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>ReliefCodeDalWaarde</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="reliefCodeNietDalWaarde"
+                        type="DETAIL-UNIONELEMENT"
+                        id="detail_attribute_Model_ReliefcodeWaardeUnion_reliefCodeNietDalWaarde"
+                        id-global="global_attribute_Model_ReliefcodeWaardeUnion_reliefCodeNietDalWaarde">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>reliefCodeNietDalWaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>ReliefCodeNietDalWaarde</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+         </section>
+         <!--removed empty content-->
+         <!--removed empty content-->
+         <section type="DETAILS-CODELIST">
+            <section name="ReliefCodeWaarde"
+                     type="DETAIL-CODELIST"
+                     id="detail_class_Model_ReliefCodeWaarde"
+                     id-global="global_class_Model_ReliefCodeWaarde"
+                     uuid="EAID_5617102D_285A_4b65_BDB5_FDACF58CCE44">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item/>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>Kartering oude stijl</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>Kartering nieuwe stijl</item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+            <section name="Inventarisatiemethode"
+                     type="DETAIL-CODELIST"
+                     id="detail_class_Model_Inventarisatiemethode"
+                     id-global="global_class_Model_Inventarisatiemethode"
+                     uuid="EAID_6AA66C6F_7448_474d_9B1D_7CCF1FB995EF">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item/>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+               </content>
+            </section>
+         </section>
+         <section type="DETAILS-ENUMERATION">
+            <section name="NaamBestand"
+                     type="DETAIL-ENUMERATION"
+                     id="detail_class_Model_NaamBestand"
+                     id-global="global_class_Model_NaamBestand"
+                     uuid="EAID_4BE35D48_AB17_4be7_A6A3_ABE09E5258D5">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item/>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>AHN</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>Topografische hoogtelijnenkaart</item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+            <section name="Soort"
+                     type="DETAIL-ENUMERATION"
+                     id="detail_class_Model_Soort"
+                     id-global="global_class_Model_Soort"
+                     uuid="EAID_A30462D2_BDF4_4d87_AA1D_39859ADB2E90">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item/>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>kaartblad</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>onderzoeksgebied</item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+      </section>
+   </section>
+</book>
