@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.47.2"
-      generator-date="2018-09-25T13:52:13Z">
+      generator-date="2018-09-25T13:59:01Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -727,7 +727,7 @@
                      <item>
                         <item type="detail" idref="detail_attribute_Model_ToevoegingRelief_code">Code</item>
                      </item>
-                     <item/>
+                     <item>Code van toevoeging relief.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -736,9 +736,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ToevoegingRelief_omschrijvingToevoegingReliF">Omschrijving toevoeging reliï¿½f</item>
+                              idref="detail_attribute_Model_ToevoegingRelief_omschrijving">Omschrijving</item>
                      </item>
-                     <item/>
+                     <item>Omschrijving van toevoeging relief.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -799,7 +799,7 @@
                      <item>
                         <item type="detail" idref="detail_attribute_Model_Genese_code">Code</item>
                      </item>
-                     <item/>
+                     <item>Code van genese.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -810,7 +810,7 @@
                         <item type="detail"
                               idref="detail_attribute_Model_Genese_vormbepalendeFactoren">Vormbepalende factoren</item>
                      </item>
-                     <item/>
+                     <item>Vormbepalende factoren van genese.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -846,10 +846,9 @@
                   <itemtype type="REFERENCEELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_ReliefCodeDal_diepteTovOmgevingM">Diepte t.o.v. omgeving (m)</item>
+                        <item type="detail" idref="detail_attribute_Model_ReliefCodeDal_diepte">diepte</item>
                      </item>
-                     <item/>
+                     <item>Diepte t.o.v. omgeving in meter.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -858,9 +857,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ReliefCodeDal_steilsteVerhang">Steilste verhang</item>
+                              idref="detail_attribute_Model_ReliefCodeDal_steilsteVerhang">steilste verhang</item>
                      </item>
-                     <item/>
+                     <item>Steilste verhang</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -869,9 +868,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ReliefCodeDal_maximaalHoogteverschilBinnenDeVormM">Maximaal hoogteverschil binnen de vorm (m)</item>
+                              idref="detail_attribute_Model_ReliefCodeDal_maximaalHoogteverschil">maximaal hoogteverschil</item>
                      </item>
-                     <item/>
+                     <item>Maximaal hoogteverschil binnen de vorm in meters.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -880,9 +879,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ReliefCodeDal_maximaalVervalM">Maximaal verval (m)</item>
+                              idref="detail_attribute_Model_ReliefCodeDal_maximaalVerval">maximaal verval</item>
                      </item>
-                     <item/>
+                     <item>Maximaal verval in meters.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -890,9 +889,9 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_ReliefCodeDal_code">Code</item>
+                        <item type="detail" idref="detail_attribute_Model_ReliefCodeDal_code">code</item>
                      </item>
-                     <item/>
+                     <item>Code van relief dal.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -928,9 +927,9 @@
                   <itemtype type="REFERENCEELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_ReliefCodeNietDal_reliF">Reliï¿½f</item>
+                        <item type="detail" idref="detail_attribute_Model_ReliefCodeNietDal_reliF">reliëf</item>
                      </item>
-                     <item/>
+                     <item>Relief.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -938,9 +937,9 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_ReliefCodeNietDal_helling">Helling</item>
+                        <item type="detail" idref="detail_attribute_Model_ReliefCodeNietDal_helling">helling</item>
                      </item>
-                     <item/>
+                     <item>Helling.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -949,9 +948,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ReliefCodeNietDal_lokaalMaximaalHoogteverschilM">Lokaal maximaal hoogteverschil (m)</item>
+                              idref="detail_attribute_Model_ReliefCodeNietDal_lokaalMaximaalHoogteverschil">lokaal maximaal hoogteverschil</item>
                      </item>
-                     <item/>
+                     <item>Lokaal maximaal hoogteverschil in meters.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -959,7 +958,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_ReliefCodeNietDal_code">Code</item>
+                        <item type="detail" idref="detail_attribute_Model_ReliefCodeNietDal_code">code</item>
                      </item>
                      <item/>
                      <item>
@@ -995,14 +994,18 @@
          </section>
       </section>
       <section type="OVERVIEW-UNION">
-         <section name="ReliefcodeWaarde"
+         <section name="Reliefcode"
                   type="UNION"
-                  id="global_class_Model_ReliefcodeWaarde"
+                  id="global_class_Model_Reliefcode"
                   uuid="EAID_BFEEA89D_0D4C_4c95_BC1D_762A18EB6F9B">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>ReliefcodeWaarde</item>
+                  <item>Reliefcode</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
@@ -1019,7 +1022,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ReliefcodeWaarde_reliefCodeDalWaarde">reliefCodeDalWaarde</item>
+                              idref="detail_attribute_Model_Reliefcode_reliefCodeDalWaarde">reliefCodeDalWaarde</item>
                      </item>
                      <item/>
                      <item>
@@ -1030,7 +1033,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ReliefcodeWaarde_reliefCodeNietDalWaarde">reliefCodeNietDalWaarde</item>
+                              idref="detail_attribute_Model_Reliefcode_reliefCodeNietDalWaarde">reliefCodeNietDalWaarde</item>
                      </item>
                      <item/>
                      <item>
@@ -1202,6 +1205,10 @@ Landvormgroepen worden op basis van genese onderverdeeld. Er zijn 10 genetische 
                   <item>Naam</item>
                   <item>ReliefType</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Typering van de verticale dimensie van de landvormeenheid.</item>
@@ -1220,7 +1227,7 @@ Landvormgroepen worden op basis van genese onderverdeeld. Er zijn 10 genetische 
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_Model_ReliefcodeWaarde">ReliefcodeWaarde</item>
+                        <item type="global" idref="global_class_Model_Reliefcode">Reliefcode</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -2336,6 +2343,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Code van toevoeging relief.</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -2346,18 +2357,22 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                   </content>
                </section>
-               <section name="Omschrijving toevoeging reliï¿½f"
+               <section name="Omschrijving"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_ToevoegingRelief_omschrijvingToevoegingReliF"
-                        id-global="global_attribute_Model_ToevoegingRelief_omschrijvingToevoegingReliF">
+                        id="detail_attribute_Model_ToevoegingRelief_omschrijving"
+                        id-global="global_attribute_Model_ToevoegingRelief_omschrijving">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Omschrijving toevoeging reliï¿½f</item>
+                        <item>Omschrijving</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Omschrijving van toevoeging relief.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2388,6 +2403,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Code van genese.</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -2411,6 +2430,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Vormbepalende factoren van genese.</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -2426,18 +2449,22 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      type="REFERENTIELIJST"
                      id="detail_class_Model_ReliefCodeDal"
                      id-global="global_class_Model_ReliefCodeDal">
-               <section name="Diepte t.o.v. omgeving (m)"
+               <section name="diepte"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_ReliefCodeDal_diepteTovOmgevingM"
-                        id-global="global_attribute_Model_ReliefCodeDal_diepteTovOmgevingM">
+                        id="detail_attribute_Model_ReliefCodeDal_diepte"
+                        id-global="global_attribute_Model_ReliefCodeDal_diepte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Diepte t.o.v. omgeving (m)</item>
+                        <item>diepte</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Diepte t.o.v. omgeving in meter.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2449,19 +2476,23 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                   </content>
                </section>
-               <section name="Steilste verhang"
+               <section name="steilste verhang"
                         type="DETAIL-REFERENCEELEMENT"
                         id="detail_attribute_Model_ReliefCodeDal_steilsteVerhang"
                         id-global="global_attribute_Model_ReliefCodeDal_steilsteVerhang">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
+                        <item>steilste verhang</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
                         <item>Steilste verhang</item>
                      </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -2472,18 +2503,22 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                   </content>
                </section>
-               <section name="Maximaal hoogteverschil binnen de vorm (m)"
+               <section name="maximaal hoogteverschil"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_ReliefCodeDal_maximaalHoogteverschilBinnenDeVormM"
-                        id-global="global_attribute_Model_ReliefCodeDal_maximaalHoogteverschilBinnenDeVormM">
+                        id="detail_attribute_Model_ReliefCodeDal_maximaalHoogteverschil"
+                        id-global="global_attribute_Model_ReliefCodeDal_maximaalHoogteverschil">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Maximaal hoogteverschil binnen de vorm (m)</item>
+                        <item>maximaal hoogteverschil</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Maximaal hoogteverschil binnen de vorm in meters.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2495,18 +2530,22 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                   </content>
                </section>
-               <section name="Maximaal verval (m)"
+               <section name="maximaal verval"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_ReliefCodeDal_maximaalVervalM"
-                        id-global="global_attribute_Model_ReliefCodeDal_maximaalVervalM">
+                        id="detail_attribute_Model_ReliefCodeDal_maximaalVerval"
+                        id-global="global_attribute_Model_ReliefCodeDal_maximaalVerval">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Maximaal verval (m)</item>
+                        <item>maximaal verval</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Maximaal verval in meters.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2518,18 +2557,22 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                   </content>
                </section>
-               <section name="Code"
+               <section name="code"
                         type="DETAIL-REFERENCEELEMENT"
                         id="detail_attribute_Model_ReliefCodeDal_code"
                         id-global="global_attribute_Model_ReliefCodeDal_code">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Code</item>
+                        <item>code</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Code van relief dal.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2546,18 +2589,22 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      type="REFERENTIELIJST"
                      id="detail_class_Model_ReliefCodeNietDal"
                      id-global="global_class_Model_ReliefCodeNietDal">
-               <section name="Reliï¿½f"
+               <section name="reliëf"
                         type="DETAIL-REFERENCEELEMENT"
                         id="detail_attribute_Model_ReliefCodeNietDal_reliF"
                         id-global="global_attribute_Model_ReliefCodeNietDal_reliF">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Reliï¿½f</item>
+                        <item>reliëf</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>Referentie element</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Relief.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2569,18 +2616,22 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                   </content>
                </section>
-               <section name="Helling"
+               <section name="helling"
                         type="DETAIL-REFERENCEELEMENT"
                         id="detail_attribute_Model_ReliefCodeNietDal_helling"
                         id-global="global_attribute_Model_ReliefCodeNietDal_helling">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Helling</item>
+                        <item>helling</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>Referentie element</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Helling.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2592,18 +2643,22 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                   </content>
                </section>
-               <section name="Lokaal maximaal hoogteverschil (m)"
+               <section name="lokaal maximaal hoogteverschil"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_ReliefCodeNietDal_lokaalMaximaalHoogteverschilM"
-                        id-global="global_attribute_Model_ReliefCodeNietDal_lokaalMaximaalHoogteverschilM">
+                        id="detail_attribute_Model_ReliefCodeNietDal_lokaalMaximaalHoogteverschil"
+                        id-global="global_attribute_Model_ReliefCodeNietDal_lokaalMaximaalHoogteverschil">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Lokaal maximaal hoogteverschil (m)</item>
+                        <item>lokaal maximaal hoogteverschil</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>Referentie element</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Lokaal maximaal hoogteverschil in meters.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2615,14 +2670,14 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                   </content>
                </section>
-               <section name="Code"
+               <section name="code"
                         type="DETAIL-REFERENCEELEMENT"
                         id="detail_attribute_Model_ReliefCodeNietDal_code"
                         id-global="global_attribute_Model_ReliefCodeNietDal_code">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Code</item>
+                        <item>code</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -2642,14 +2697,14 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
             <!--removed empty content-->
          </section>
          <section type="DETAILS-UNION">
-            <section name="ReliefcodeWaarde"
+            <section name="Reliefcode"
                      type="KEUZE"
-                     id="detail_class_Model_ReliefcodeWaarde"
-                     id-global="global_class_Model_ReliefcodeWaarde">
+                     id="detail_class_Model_Reliefcode"
+                     id-global="global_class_Model_Reliefcode">
                <section name="reliefCodeDalWaarde"
                         type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_Model_ReliefcodeWaarde_reliefCodeDalWaarde"
-                        id-global="global_attribute_Model_ReliefcodeWaarde_reliefCodeDalWaarde">
+                        id="detail_attribute_Model_Reliefcode_reliefCodeDalWaarde"
+                        id-global="global_attribute_Model_Reliefcode_reliefCodeDalWaarde">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2667,8 +2722,8 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                </section>
                <section name="reliefCodeNietDalWaarde"
                         type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_Model_ReliefcodeWaarde_reliefCodeNietDalWaarde"
-                        id-global="global_attribute_Model_ReliefcodeWaarde_reliefCodeNietDalWaarde">
+                        id="detail_attribute_Model_Reliefcode_reliefCodeNietDalWaarde"
+                        id-global="global_attribute_Model_Reliefcode_reliefCodeNietDalWaarde">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2936,7 +2991,7 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>ReliefcodeWaarde</item>
+                        <item>Reliefcode</item>
                      </part>
                   </content>
                </section>
