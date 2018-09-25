@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.47.2"
-      generator-date="2018-09-25T14:01:37Z">
+      generator-date="2018-09-25T17:51:28Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -104,7 +104,7 @@
                      </item>
                      <item>De unieke aanduiding van een Dijk van geomorfologisch belang.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Identifier">Identifier</item>
+                        <item type="global" idref="global_class_INSPIRE_Identifier">Identifier</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -213,7 +213,7 @@
                      </item>
                      <item>De unieke aanduiding van een Geomorfologisch vlak.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Identifier">Identifier</item>
+                        <item type="global" idref="global_class_INSPIRE_Identifier">Identifier</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -363,7 +363,7 @@
                      </item>
                      <item>De unieke identificatie van een Geomorfologische vlakcollectie.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Identifier">Identifier</item>
+                        <item type="global" idref="global_class_INSPIRE_Identifier">Identifier</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -572,7 +572,7 @@
                      </item>
                      <item>De unieke aanduiding van de geomorfologische kaart.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Identifier">Identifier</item>
+                        <item type="global" idref="global_class_INSPIRE_Identifier">Identifier</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -583,7 +583,8 @@
                      </item>
                      <item>De omhullende begrenzing van het gebied waar het model geheel binnen valt.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_EX_Extent">EX_Extent</item>
+                        <item type="global"
+                              idref="global_class_ISO191152006MetadataCorrigendum_EX_Extent">EX_Extent</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -1167,7 +1168,7 @@ Landvormgroepen worden op basis van genese onderverdeeld. Er zijn 10 genetische 
                      </item>
                      <item>De unieke aanduiding van een landvormsubgroep.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Identifier">Identifier</item>
+                        <item type="global" idref="global_class_INSPIRE_Identifier">Identifier</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -1297,38 +1298,7 @@ Landvormgroepen worden op basis van genese onderverdeeld. Er zijn 10 genetische 
             </section>
          </section>
       </section>
-      <section type="OVERVIEW-PRIMITIVEDATATYPE">
-         <section name="Identifier"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_Identifier"
-                  uuid="EAID_04FC2025_CFE6_454e_BDEC_946E2489BA8C">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Identifier</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Externe unieke object-identifier gepubliceerd door de verantwoordelijke instantie, die kan worden gebruikt door externe toepassingen om te verwijzen naar het ruimtelijke object. (bron: INSPIRE)</item>
-               </part>
-            </content>
-         </section>
-         <section name="EX_Extent"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_EX_Extent"
-                  uuid="EAID_3566253F_DB73_4f61_B17D_CBE04BDB78FF">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>EX_Extent</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Information about spatial, vertical, and temporal extent. (bron: INSPIRE)</item>
-               </part>
-            </content>
-         </section>
-      </section>
+      <!--removed empty content-->
       <section type="OVERVIEW-CODELIST">
          <content>
             <part>
