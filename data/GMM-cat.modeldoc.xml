@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.47.2"
-      generator-date="2018-09-25T12:58:13Z">
+      generator-date="2018-09-25T13:08:37Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -18,6 +18,20 @@
                <part type="CFG-DOC-DESCRIPTION">
                   <item>Omschrijving</item>
                   <item>Ontwerp conceptueel model voor de Geomorfologische kaart, ten behoeve van de Basisregistratie Ondergrond (BRO).</item>
+               </part>
+            </content>
+         </section>
+         <section type="IMAGEMAP"
+                  name="Referentielijsten Geomorfologische Kaart (GMM) - overzicht"
+                  id="EAID_5DAE70E0_485E_4094_9EE5_0C2EFAA9B0EC">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Referentielijsten Geomorfologische Kaart (GMM) - overzicht</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
                </part>
             </content>
          </section>
