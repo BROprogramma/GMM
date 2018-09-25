@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.47.2"
-      generator-date="2018-09-25T13:59:01Z">
+      generator-date="2018-09-25T14:01:37Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -960,7 +960,7 @@
                      <item>
                         <item type="detail" idref="detail_attribute_Model_ReliefCodeNietDal_code">code</item>
                      </item>
-                     <item/>
+                     <item>Code van relief niet-dal.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -2682,6 +2682,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>Referentie element</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Code van relief niet-dal.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
