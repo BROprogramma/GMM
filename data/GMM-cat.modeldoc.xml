@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.47.2"
-      generator-date="2018-09-25T13:08:37Z">
+      generator-date="2018-09-25T13:44:19Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -49,6 +49,10 @@
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Registratieobject.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -129,12 +133,12 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_dijk">bestaat uit: dijk</item>
+                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
                         </item>
                         <item>Dijk van geomorfologisch belang</item>
                         <item>[ 1 .. * ]</item>
                      </item>
-                     <item>Een Geomorfologische kaart bestaat uit ï¿½ï¿½n of meer dijken van geomorfologisch belang.</item>
+                     <item>Een Geomorfologische kaart bestaat uit een of meer dijken van geomorfologisch belang.</item>
                   </part>
                </content>
                <content approach="target">
@@ -159,7 +163,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_dijk">bestaat uit: dijk</item>
+                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
                         </item>
                         <item>Dijk van geomorfologisch belang</item>
                         <item>[ 1 .. * ]</item>
@@ -249,7 +253,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_vlak">beschrijft: vlak</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">beschrijft: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>Geomorfologisch vlak</item>
                         <item>[ 1 ]</item>
@@ -264,12 +268,12 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_vlak">bestaat uit: vlak</item>
+                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>Geomorfologisch vlak</item>
-                        <item>[ 1 ]</item>
+                        <item>[ 1 .. * ]</item>
                      </item>
-                     <item>Een geomorfologische kaart bestaat uit ï¿½ï¿½n of meer geomorfologische vlakken.</item>
+                     <item>Een geomorfologische kaart bestaat uit een of meer geomorfologische vlakken.</item>
                   </part>
                </content>
                <content approach="target">
@@ -294,7 +298,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_vlak">beschrijft: vlak</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">beschrijft: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>Geomorfologisch vlak</item>
                         <item>[ 1 ]</item>
@@ -309,10 +313,10 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_vlak">bestaat uit: vlak</item>
+                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>Geomorfologisch vlak</item>
-                        <item>[ 1 ]</item>
+                        <item>[ 1 .. * ]</item>
                      </item>
                      <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische kaart bestaat.</item>
                   </part>
@@ -445,7 +449,7 @@
                                  idref="global_class_Model_GeomorfologischRegistratieobject">Geomorfologisch registratieobject</item>
                         </item>
                      </item>
-                     <item/>
+                     <item>Registratieobject.</item>
                   </part>
                   <part>
                      <item>
@@ -453,7 +457,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_vlak">beschrijft: vlak</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">beschrijft: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
@@ -492,7 +496,7 @@
                                  idref="global_class_Model_GeomorfologischRegistratieobject">Geomorfologisch registratieobject</item>
                         </item>
                      </item>
-                     <item/>
+                     <item>Registratieobject.</item>
                   </part>
                   <part>
                      <item>
@@ -500,7 +504,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_vlak">beschrijft: vlak</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">beschrijft: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
@@ -610,7 +614,7 @@
                                  idref="global_class_Model_GeomorfologischRegistratieobject">Geomorfologisch registratieobject</item>
                         </item>
                      </item>
-                     <item/>
+                     <item>Registratieobject.</item>
                   </part>
                   <part>
                      <item>
@@ -618,14 +622,14 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_vlak">bestaat uit: vlak</item>
+                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
                         </item>
-                        <item>[ 1 ]</item>
+                        <item>[ 1 .. * ]</item>
                      </item>
-                     <item>Een geomorfologische kaart bestaat uit ï¿½ï¿½n of meer geomorfologische vlakken.</item>
+                     <item>Een geomorfologische kaart bestaat uit een of meer geomorfologische vlakken.</item>
                   </part>
                   <part>
                      <item>
@@ -633,14 +637,14 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_dijk">bestaat uit: dijk</item>
+                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_DijkVanGeomorfologischBelang">Dijk van geomorfologisch belang</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                      </item>
-                     <item>Een Geomorfologische kaart bestaat uit ï¿½ï¿½n of meer dijken van geomorfologisch belang.</item>
+                     <item>Een Geomorfologische kaart bestaat uit een of meer dijken van geomorfologisch belang.</item>
                   </part>
                </content>
                <content approach="target">
@@ -656,7 +660,7 @@
                                  idref="global_class_Model_GeomorfologischRegistratieobject">Geomorfologisch registratieobject</item>
                         </item>
                      </item>
-                     <item/>
+                     <item>Registratieobject.</item>
                   </part>
                   <part>
                      <item>
@@ -664,12 +668,12 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_vlak">bestaat uit: vlak</item>
+                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
                         </item>
-                        <item>[ 1 ]</item>
+                        <item>[ 1 .. * ]</item>
                      </item>
                      <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische kaart bestaat.</item>
                   </part>
@@ -679,7 +683,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_dijk">bestaat uit: dijk</item>
+                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_DijkVanGeomorfologischBelang">Dijk van geomorfologisch belang</item>
@@ -1455,9 +1459,17 @@ Landvormgroepen worden op basis van genese onderverdeeld. Er zijn 10 genetische 
                         <item>Naam</item>
                         <item>landvormeenheid</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Een landvormeenheid geclassificeerd aan de hand van 7 geomorfologische kenmerken.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1472,11 +1484,11 @@ De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&lt;1ï
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -1630,7 +1642,7 @@ De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&lt;1ï
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -1681,15 +1693,19 @@ De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&lt;1ï
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1782,11 +1798,15 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1825,7 +1845,7 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -1847,8 +1867,8 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                </section>
                <section name="beschrijft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_GeomorfologischeVlakcollectie_vlak"
-                        id-global="global_association_Model_GeomorfologischeVlakcollectie_vlak">
+                        id="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak"
+                        id-global="global_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2142,8 +2162,8 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                </section>
                <section name="bestaat uit"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_GeomorfologischeKaart_vlak"
-                        id-global="global_association_Model_GeomorfologischeKaart_vlak">
+                        id="detail_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak"
+                        id-global="global_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2155,7 +2175,7 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Een geomorfologische kaart bestaat uit ï¿½ï¿½n of meer geomorfologische vlakken.</item>
+                        <item>Een geomorfologische kaart bestaat uit een of meer geomorfologische vlakken.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2171,7 +2191,7 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>1 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
@@ -2199,7 +2219,7 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>1 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
@@ -2211,8 +2231,8 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                </section>
                <section name="bestaat uit"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_GeomorfologischeKaart_dijk"
-                        id-global="global_association_Model_GeomorfologischeKaart_dijk">
+                        id="detail_association_Model_GeomorfologischeKaart_gerelateerdeDijk"
+                        id-global="global_association_Model_GeomorfologischeKaart_gerelateerdeDijk">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2224,7 +2244,7 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Een Geomorfologische kaart bestaat uit ï¿½ï¿½n of meer dijken van geomorfologisch belang.</item>
+                        <item>Een Geomorfologische kaart bestaat uit een of meer dijken van geomorfologisch belang.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2664,6 +2684,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Naam</item>
                         <item>relief</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Typering van de verticale dimensie van de landvormeenheid.</item>
@@ -2686,6 +2710,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>toevoeging relief</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
@@ -2736,6 +2764,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>landvorm subgroep</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
