@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.47.2"
-      generator-date="2018-09-25T11:48:49Z">
+      generator-date="2018-09-25T12:58:13Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -99,6 +99,16 @@
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
                      <item>
+                        <item>Dijk van geomorfologisch belang</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_INSPIRE_MappedFeature">MappedFeature</item>
+                        </item>
+                     </item>
+                     <item>A spatial representation of a GeologicFeature.</item>
+                  </part>
+                  <part>
+                     <item>
                         <item>
                            <item type="global" idref="global_class_Model_GeomorfologischeKaart">Geomorfologische kaart</item>
                         </item>
@@ -117,6 +127,16 @@
                   <itemtype/>
                   <itemtype type="ROLE-NAME"/>
                   <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Dijk van geomorfologisch belang</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_INSPIRE_MappedFeature">MappedFeature</item>
+                        </item>
+                     </item>
+                     <item>A spatial representation of a GeologicFeature.</item>
+                  </part>
                   <part>
                      <item>
                         <item>
@@ -199,6 +219,16 @@
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
                      <item>
+                        <item>Geomorfologisch vlak</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_INSPIRE_MappedFeature">MappedFeature</item>
+                        </item>
+                     </item>
+                     <item>A spatial representation of a GeologicFeature.</item>
+                  </part>
+                  <part>
+                     <item>
                         <item>
                            <item type="global" idref="global_class_Model_GeomorfologischeVlakcollectie">Geomorfologische vlakcollectie</item>
                         </item>
@@ -232,6 +262,16 @@
                   <itemtype/>
                   <itemtype type="ROLE-NAME"/>
                   <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Geomorfologisch vlak</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_INSPIRE_MappedFeature">MappedFeature</item>
+                        </item>
+                     </item>
+                     <item>A spatial representation of a GeologicFeature.</item>
+                  </part>
                   <part>
                      <item>
                         <item>
@@ -408,6 +448,22 @@
                      </item>
                      <item>Een Geomorfolische vlakcollectie beschrijft ï¿½ï¿½n of meer geomorfologische vlakken.</item>
                   </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische vlakcollectie</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdeCitation">is gedocumenteerd in: gerelateerdeCitation</item>
+                        </item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_ISO191152006MetadataCorrigendum_CI_Citation">CI_Citation</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item>Een Geomorfologische vlakcollectie is gedocumenteerd in een CI_Citation.</item>
+                  </part>
                </content>
                <content approach="target">
                   <itemtype/>
@@ -438,6 +494,22 @@
                         <item>[ 1 ]</item>
                      </item>
                      <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische vlakcollectie bestaat.</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische vlakcollectie</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdeCitation">is gedocumenteerd in: gerelateerdeCitation</item>
+                        </item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_ISO191152006MetadataCorrigendum_CI_Citation">CI_Citation</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item>De unieke aanduiding van een CI_Citation waarin de Geomorfologische vlakcollectie is gedocumenteerd.</item>
                   </part>
                </content>
             </section>
@@ -909,10 +981,6 @@
                   <item>Naam</item>
                   <item>ReliefcodeWaarde</item>
                </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Een samengestelde waardes voor reliefcode waarbij een gekeuze gemaakt moet worden tussen dalwaarde (ReliefCodeDalWaarde) en niet-dalwaarde (ReliefCodeNietDalWaarde).</item>
@@ -961,10 +1029,6 @@
                   <item>Naam</item>
                   <item>Landvormeenheid</item>
                </part>
-               <part type="CFG-DOC-ALTERNATIEVENAAM">
-                  <item>Alternatieve naam</item>
-                  <item>landvormeenheid</item>
-               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Een landvormeenheid geclassificeerd aan de hand van 7 geomorfologische kenmerken.</item>
@@ -1009,7 +1073,7 @@ De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt
                         <item type="detail"
                               idref="detail_attribute_Model_Landvormeenheid_actiefProces">actief proces</item>
                      </item>
-                     <item>Onderverdeling van landvormeenheden naar het wel of niet onderhevig zijn aan een actief vormingsproces.</item>
+                     <item>Onderverdeling van landvormeenheden naar het wel of niet onderhevig zijn aan een actief vormingsproces. Indien er geomorfologische processen actief op een landvorm inwerken wordt dit in dit attribuut aangegeven.</item>
                      <item>
                         <item type="global">Boolean</item>
                      </item>
@@ -1051,7 +1115,8 @@ De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Vormen binnen de landvormgroep en dezelfde genese, maar met andere specifieke vormkenmerken.</item>
+                  <item>Vormen binnen de landvormgroep en dezelfde genese, maar met andere specifieke vormkenmerken.
+Landvormgroepen worden op basis van genese onderverdeeld. Er zijn 10 genetische processen die van invloed kunnen zijn op de landvorm.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -1203,36 +1268,6 @@ De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Externe unieke object-identifier gepubliceerd door de verantwoordelijke instantie, die kan worden gebruikt door externe toepassingen om te verwijzen naar het ruimtelijke object. (bron: INSPIRE)</item>
-               </part>
-            </content>
-         </section>
-         <section name="GM_MultiSolid"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_GM_MultiSolid"
-                  uuid="EAID_1D36F4B0_E821_42d7_8AEF_0B8D8CFF93AC">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>GM_MultiSolid</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Multivolume. Verzameling van volumes die gezamenlijk één object vormen (instanties van GM_Solid). (bron: ISO 19107:2003 Spatial Schema)</item>
-               </part>
-            </content>
-         </section>
-         <section name="GM_MultiSurface"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_GM_MultiSurface"
-                  uuid="EAID_32A49D7C_18CB_4d14_9346_C092A30257AD">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>GM_MultiSurface</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Multivlak. Verzameling van vlakken die gezamenlijk één object vormen (instanties van GM_Surface). (bron: ISO 19107:2003 Spatial Schema)</item>
                </part>
             </content>
          </section>
@@ -1861,6 +1896,77 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="is gedocumenteerd in"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdeCitation"
+                        id-global="global_association_Model_GeomorfologischeVlakcollectie_gerelateerdeCitation">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>is gedocumenteerd in</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Een Geomorfologische vlakcollectie is gedocumenteerd in een CI_Citation.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_ISO191152006MetadataCorrigendum_CI_Citation">CI_Citation</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>is gedocumenteerd in</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De unieke aanduiding van een CI_Citation waarin de Geomorfologische vlakcollectie is gedocumenteerd.</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_ISO191152006MetadataCorrigendum_CI_Citation">CI_Citation</item>
                         </item>
                      </part>
                   </content>
@@ -2596,15 +2702,7 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Onderverdeling van landvormeenheden naar het wel of niet onderhevig zijn aan een actief vormingsproces.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Indien er geomorfologische processen actief op een landvorm inwerken wordt dit in dit attribuut aangegeven.</item>
+                        <item>Onderverdeling van landvormeenheden naar het wel of niet onderhevig zijn aan een actief vormingsproces. Indien er geomorfologische processen actief op een landvorm inwerken wordt dit in dit attribuut aangegeven.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2742,14 +2840,6 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Definitie</item>
                         <item>De ontstaanswijze van landvormen.</item>
                      </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Landvormgroepen worden op basis van genese onderverdeeld. Er zijn 10 genetische processen die van invloed kunnen zijn op de landvorm.</item>
-                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -2825,10 +2915,6 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                         <item>Definitie</item>
                         <item>De naam of beschrijving van het bestand met hoogte informatie.</item>
                      </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -2855,10 +2941,6 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De versie van het bestand met hoogte informatie.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
