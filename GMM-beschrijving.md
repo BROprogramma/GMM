@@ -8,6 +8,12 @@ het aardoppervlak te kennen voor ruimtelijke planvorming, voor realisatie en
 onderhoud van infrastructuur, voor onderwijs, onderzoek en advies m.b.t. natuur,
 landschap en archeologie.
 
+De Geomorfologische kaart is een van de registratieobjecten in de BRO, en wordt
+aangeduid als een ‘model’. Voor de Geomorfologische kaart betekent dit dat de
+kaart zelf het ‘model’ is dat tot stand gekomen is via een interpretatie van het
+Actuele Hoogtebestand Nederland (AHN) en de Bodemkaart 1: 50:000. Deze laatste
+is ook als registratieobject in de BRO is opgenomen.
+
 Geomorfologie is de wetenschap die zich bezig houdt met het bestuderen van de
 vormen van het aardoppervlak en de processen die bij het ontstaan daarvan een
 rol spelen of hebben gespeeld. De geomorfologische kaart (het ‘model’) is het
@@ -45,8 +51,8 @@ Onderzoek en educatie; de geomorfologische kaart en kennis van de geomorfologie
 is belangrijk bij environmental science studies en onderzoeken in dat vakgebied
 [[Koomen-Maas2004](https://broprogramma.github.io/GMM/#bib-koomen-maas2004)].
 
-Gebruikersperspectief 
-----------------------
+Gebruikersperspectief
+---------------------
 
 De informatie op de Geomorfologische Kaart van Nederland 1 : 50 000, die de
 basis vormt voor het geomorfologisch model in de Basisregistratie Ondergrond,
