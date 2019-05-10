@@ -122,6 +122,13 @@ Een [uitgebreide toelichting op de legenda van de Geomorfologische kaart van
 Nederland 1:50 000](http://legendageomorfologie.wur.nl/) is online beschikbaar
 [[Maas2017](https://broprogramma.github.io/GMM/#bib-maas2017)].
 
+### Versiebeheer
+
+De beheerder van een model maakt zijn waardenlijsten (codelijsten en/of referentielijsten) bekend op een algemeen bekend formaat (PDF en als downloadable bestand) en maakt deze toegankelijk via www.basisregistratieondergrond.nl. De waardenlijsten worden meegeleverd bij de modellevering.
+
+Als er wijzigingen zijn in een waardelijst, wordt er uiterlijk twee maanden vóór inwerkingtreding een notificatie op die website gezet, zodat gebruikers nog tijd hebben om hun eigen omgeving op de wijzigingen aan te passen.
+
+
 ### Vormgroep
 
 Tot een vormgroep behoren landvormen die in hun uiterlijke gedaante bepaalde
