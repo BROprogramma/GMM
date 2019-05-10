@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.47.6"
-      generator-date="2018-11-13T11:45:22Z">
+      generator-date="2019-05-10T09:29:26Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -105,12 +105,12 @@
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_Model_GeomorfologischeKaart">Geomorfologische kaart</item>
+                           <item type="global" idref="global_class_Model_GeomorfologischeVlakcollectie">Geomorfologische vlakcollectie</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
                         </item>
                         <item>Dijk van geomorfologisch belang</item>
                         <item>[ 1 .. * ]</item>
@@ -135,12 +135,12 @@
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_Model_GeomorfologischeKaart">Geomorfologische kaart</item>
+                           <item type="global" idref="global_class_Model_GeomorfologischeVlakcollectie">Geomorfologische vlakcollectie</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
                         </item>
                         <item>Dijk van geomorfologisch belang</item>
                         <item>[ 1 .. * ]</item>
@@ -230,22 +230,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">beschrijft: gerelateerdGeomorfologischVlak</item>
-                        </item>
-                        <item>Geomorfologisch vlak</item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item>Een Geomorfolische vlakcollectie beschrijft ï¿½ï¿½n of meer geomorfologische vlakken.</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item>
-                           <item type="global" idref="global_class_Model_GeomorfologischeKaart">Geomorfologische kaart</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>Geomorfologisch vlak</item>
                         <item>[ 1 .. * ]</item>
@@ -275,22 +260,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">beschrijft: gerelateerdGeomorfologischVlak</item>
-                        </item>
-                        <item>Geomorfologisch vlak</item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische vlakcollectie bestaat.</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item>
-                           <item type="global" idref="global_class_Model_GeomorfologischeKaart">Geomorfologische kaart</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>Geomorfologisch vlak</item>
                         <item>[ 1 .. * ]</item>
@@ -347,11 +317,33 @@
                   <part>
                      <item>
                         <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeVlakcollectie_bereik">bereik</item>
+                     </item>
+                     <item>De omhullende begrenzing van het gebied waar het model geheel binnen valt.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_EX_Extent">EX_Extent</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
                               idref="detail_attribute_Model_GeomorfologischeVlakcollectie_naam">naam</item>
                      </item>
                      <item>De naam van de verzameling.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GeomorfologischeVlakcollectie_schaal">schaal</item>
+                     </item>
+                     <item>De schaal waarop de gegevens zijn ingewonnen.</item>
+                     <item>
+                        <item type="global">Integer</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -433,14 +425,14 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">beschrijft: gerelateerdGeomorfologischVlak</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
                         </item>
-                        <item>[ 1 ]</item>
+                        <item>[ 1 .. * ]</item>
                      </item>
-                     <item>Een Geomorfolische vlakcollectie beschrijft ï¿½ï¿½n of meer geomorfologische vlakken.</item>
+                     <item>Een geomorfologische kaart bestaat uit een of meer geomorfologische vlakken.</item>
                   </part>
                   <part>
                      <item>
@@ -458,6 +450,21 @@
                      </item>
                      <item>Een Geomorfologische vlakcollectie is gedocumenteerd in een CI_Citation.</item>
                   </part>
+                  <part>
+                     <item>
+                        <item>Geomorfologische vlakcollectie</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Model_DijkVanGeomorfologischBelang">Dijk van geomorfologisch belang</item>
+                        </item>
+                        <item>[ 1 .. * ]</item>
+                     </item>
+                     <item>Een Geomorfologische kaart bestaat uit een of meer dijken van geomorfologisch belang.</item>
+                  </part>
                </content>
                <content approach="target">
                   <itemtype/>
@@ -479,14 +486,14 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">beschrijft: gerelateerdGeomorfologischVlak</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
                         </item>
-                        <item>[ 1 ]</item>
+                        <item>[ 1 .. * ]</item>
                      </item>
-                     <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische vlakcollectie bestaat.</item>
+                     <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische kaart bestaat.</item>
                   </part>
                   <part>
                      <item>
@@ -504,159 +511,13 @@
                      </item>
                      <item>De unieke aanduiding van een CI_Citation waarin de Geomorfologische vlakcollectie is gedocumenteerd.</item>
                   </part>
-               </content>
-            </section>
-         </section>
-         <section name="Geomorfologische kaart"
-                  type="OBJECTTYPE"
-                  id="global_class_Model_GeomorfologischeKaart"
-                  uuid="EAID_6153A93B_5EF8_4e22_8EEC_7CF612ACE3D6">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Geomorfologische kaart</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Model (kaart) met informatie over de geomorfologie in Nederland op schaal 1:50.000.</item>
-               </part>
-               <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                  <item>Herkomst definitie</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>geomorfologie</item>
-               </part>
-            </content>
-            <section type="SHORT-ATTRIBUTES">
-               <content>
-                  <itemtype/>
-                  <itemtype type="ATTRIBUTE-NAME"/>
-                  <itemtype type="ATTRIBUTE-DEFINITION"/>
-                  <itemtype type="ATTRIBUTE-FORMAT"/>
-                  <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_GeomorfologischeKaart_identificatie">identificatie</item>
-                     </item>
-                     <item>De unieke aanduiding van de geomorfologische kaart.</item>
-                     <item>
-                        <item type="global" idref="global_class_Model_Identifier">Identifier</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_GeomorfologischeKaart_bereik">bereik</item>
-                     </item>
-                     <item>De omhullende begrenzing van het gebied waar het model geheel binnen valt.</item>
-                     <item>
-                        <item type="global" idref="global_class_Model_EX_Extent">EX_Extent</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_GeomorfologischeKaart_schaal">schaal</item>
-                     </item>
-                     <item>De schaal waarop de gegevens zijn ingewonnen.</item>
-                     <item>
-                        <item type="global">Integer</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-               </content>
-            </section>
-            <section type="SHORT-ASSOCIATIONS">
-               <content approach="association">
-                  <itemtype/>
-                  <itemtype type="ASSOCIATION-NAME"/>
-                  <itemtype type="ASSOCIATION-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>Geomorfologische kaart</item>
-                        <item>is specialisatie van</item>
-                        <item>
-                           <item type="global" idref="global_class_BROCommon_Registratieobject">Registratieobject</item>
-                        </item>
-                     </item>
-                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Geomorfologische kaart</item>
+                        <item>Geomorfologische vlakcollectie</item>
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
-                        </item>
-                        <item>[ 1 .. * ]</item>
-                     </item>
-                     <item>Een geomorfologische kaart bestaat uit een of meer geomorfologische vlakken.</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Geomorfologische kaart</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_DijkVanGeomorfologischBelang">Dijk van geomorfologisch belang</item>
-                        </item>
-                        <item>[ 1 .. * ]</item>
-                     </item>
-                     <item>Een Geomorfologische kaart bestaat uit een of meer dijken van geomorfologisch belang.</item>
-                  </part>
-               </content>
-               <content approach="target">
-                  <itemtype/>
-                  <itemtype type="ROLE-NAME"/>
-                  <itemtype type="ROLE-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>Geomorfologische kaart</item>
-                        <item>is specialisatie van</item>
-                        <item>
-                           <item type="global" idref="global_class_BROCommon_Registratieobject">Registratieobject</item>
-                        </item>
-                     </item>
-                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Geomorfologische kaart</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak">bestaat uit: gerelateerdGeomorfologischVlak</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
-                        </item>
-                        <item>[ 1 .. * ]</item>
-                     </item>
-                     <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische kaart bestaat.</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Geomorfologische kaart</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_Model_GeomorfologischeKaart_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
+                                 idref="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdeDijk">bestaat uit: gerelateerdeDijk</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_DijkVanGeomorfologischBelang">Dijk van geomorfologisch belang</item>
@@ -1587,6 +1448,57 @@ De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&lt;1ï
                      </part>
                   </content>
                </section>
+               <section name="bereik"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeVlakcollectie_bereik"
+                        id-global="global_attribute_Model_GeomorfologischeVlakcollectie_bereik">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bereik</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>ISO 19115:2006 Metadata (Corrigendum)</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De omhullende begrenzing van het gebied waar het model geheel binnen valt.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>ISO 19115:2006</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De begrenzing is aangegeven door een rechthoek met de linker bovenhoek en rechter onderhoek.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>EX_Extent</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
                <section name="naam"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_Model_GeomorfologischeVlakcollectie_naam"
@@ -1631,6 +1543,58 @@ De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&lt;1ï
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="schaal"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_GeomorfologischeVlakcollectie_schaal"
+                        id-global="global_attribute_Model_GeomorfologischeVlakcollectie_schaal">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>schaal</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De schaal waarop de gegevens zijn ingewonnen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De kaartschaal van de geomorfologische kaart is 1:50.000, waarop de karteermethode en nauwkeurigheid (detaillering van de gebruikte classificatie) is afgestemd
+</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Integer</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -1892,14 +1856,14 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                   </content>
                </section>
-               <section name="beschrijft"
+               <section name="bestaat uit"
                         type="DETAIL-ASSOCIATION"
                         id="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak"
                         id-global="global_association_Model_GeomorfologischeVlakcollectie_gerelateerdGeomorfologischVlak">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>beschrijft</item>
+                        <item>bestaat uit</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -1907,7 +1871,7 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Een Geomorfolische vlakcollectie beschrijft ï¿½ï¿½n of meer geomorfologische vlakken.</item>
+                        <item>Een geomorfologische kaart bestaat uit een of meer geomorfologische vlakken.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -1923,7 +1887,7 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>1 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
@@ -1935,11 +1899,11 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                   <content approach="target">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>beschrijft</item>
+                        <item>bestaat uit</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische vlakcollectie bestaat.</item>
+                        <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische kaart bestaat.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1951,7 +1915,7 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>1 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
@@ -2032,234 +1996,10 @@ De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfo
                      </part>
                   </content>
                </section>
-            </section>
-            <section name="Geomorfologische kaart"
-                     type="OBJECTTYPE"
-                     id="detail_class_Model_GeomorfologischeKaart"
-                     id-global="global_class_Model_GeomorfologischeKaart">
-               <section name="identificatie"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_GeomorfologischeKaart_identificatie"
-                        id-global="global_attribute_Model_GeomorfologischeKaart_identificatie">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>identificatie</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De unieke aanduiding van de geomorfologische kaart.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Identifier</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="bereik"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_GeomorfologischeKaart_bereik"
-                        id-global="global_attribute_Model_GeomorfologischeKaart_bereik">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>bereik</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>ISO 19115:2006 Metadata (Corrigendum)</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De omhullende begrenzing van het gebied waar het model geheel binnen valt.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>ISO 19115:2006</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>De begrenzing is aangegeven door een rechthoek met de linker bovenhoek en rechter onderhoek.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>EX_Extent</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="schaal"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_GeomorfologischeKaart_schaal"
-                        id-global="global_attribute_Model_GeomorfologischeKaart_schaal">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>schaal</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De schaal waarop de gegevens zijn ingewonnen.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>De kaartschaal van de geomorfologische kaart is 1:50.000, waarop de karteermethode en nauwkeurigheid (detaillering van de gebruikte classificatie) is afgestemd
-</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Integer</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="bestaat uit"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak"
-                        id-global="global_association_Model_GeomorfologischeKaart_gerelateerdGeomorfologischVlak">
-                  <content approach="association">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>bestaat uit</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Een geomorfologische kaart bestaat uit een of meer geomorfologische vlakken.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1 .. *</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd objecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>bestaat uit</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De unieke aanduiding van elk Geomorfologisch vlak waaruit de Geomorfologische kaart bestaat.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1 .. *</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd objecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_Model_GeomorfologischVlak">Geomorfologisch vlak</item>
-                        </item>
-                     </part>
-                  </content>
-               </section>
-               <section name="bestaat uit"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_GeomorfologischeKaart_gerelateerdeDijk"
-                        id-global="global_association_Model_GeomorfologischeKaart_gerelateerdeDijk">
+                        id="detail_association_Model_GeomorfologischeVlakcollectie_gerelateerdeDijk"
+                        id-global="global_association_Model_GeomorfologischeVlakcollectie_gerelateerdeDijk">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
