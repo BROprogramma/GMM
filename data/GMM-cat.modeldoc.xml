@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.47.6"
-      generator-date="2019-05-10T09:36:34Z">
+      generator-date="2019-05-15T07:01:30Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -168,7 +168,7 @@
                            <item type="global" idref="global_class_BROCommon_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
-                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
+                     <item>Een entititeit met het geheel van generieke gegevens die voorkomen bij alle verschillende soorten registratieobjecten in de basisregistratie ondergrond (BRO).</item>
                   </part>
                   <part>
                      <item>
@@ -229,7 +229,7 @@
                            <item type="global" idref="global_class_BROCommon_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
-                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
+                     <item>Een entititeit met het geheel van generieke gegevens die voorkomen bij alle verschillende soorten registratieobjecten in de basisregistratie ondergrond (BRO).</item>
                   </part>
                   <part>
                      <item>
@@ -876,13 +876,9 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een landvormeenheid geclassificeerd aan de hand van 7 geomorfologische kenmerken.</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>Deze 7 kenmerken zijn als eigenschappen toegevoegd aan dit object.
-EXAMPLE 22R21dl
-De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1ï¿½) en een zeer geringe hoogteverschillen binnen de landvorm (ï¿½ tot ï¿½m). De R in de code staat voor de vormgroep dalen. Code 2 in het onderdeel genese geeft aan dat het een dal is dat hoofdzakelijk is ontstaan door erosie onder periglaciale omstandigheden, waarbij de ondergrond permanent bevroren was (permafrost), en periodiek overvloedige hoeveelheden sneeuwsmeltwater afstroomden. De landvormcode 1 geeft in combinatie met de vormgroep- en genesecode aan dat het de landvorm droogdal betreft. De lettercombinatie dl in het onderdeel toevoeging geeft weer dat de landvorm bedekt of (gedeeltelijk) opgevuld is met dekzand of (zandige)lï¿½ss. Er is bij deze landvorm geen morfologisch proces actief.</item>
+                  <item>Een landvormeenheid geclassificeerd aan de hand van 7 geomorfologische kenmerken.
+Deze 7 kenmerken zijn als eigenschappen toegevoegd aan dit object.
+De reliëfcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1ï¿½) en een zeer geringe hoogteverschillen binnen de landvorm (ï¿½ tot ï¿½m). De R in de code staat voor de vormgroep dalen. Code 2 in het onderdeel genese geeft aan dat het een dal is dat hoofdzakelijk is ontstaan door erosie onder periglaciale omstandigheden, waarbij de ondergrond permanent bevroren was (permafrost), en periodiek overvloedige hoeveelheden sneeuwsmeltwater afstroomden. De landvormcode 1 geeft in combinatie met de vormgroep- en genesecode aan dat het de landvorm droogdal betreft. De lettercombinatie dl in het onderdeel toevoeging geeft weer dat de landvorm bedekt of (gedeeltelijk) opgevuld is met dekzand of (zandige)lï¿½ss. Er is bij deze landvorm geen morfologisch proces actief.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
