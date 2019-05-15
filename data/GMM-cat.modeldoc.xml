@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_8805F9BA_2742_44c4_9B6D_0CF15CAC1B92"
       generator-version="1.47.6"
-      generator-date="2019-05-15T07:01:30Z">
+      generator-date="2019-05-15T07:34:46Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -878,7 +878,7 @@
                   <item>Definitie</item>
                   <item>Een landvormeenheid geclassificeerd aan de hand van 7 geomorfologische kenmerken.
 Deze 7 kenmerken zijn als eigenschappen toegevoegd aan dit object.
-De reliëfcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1ï¿½) en een zeer geringe hoogteverschillen binnen de landvorm (ï¿½ tot ï¿½m). De R in de code staat voor de vormgroep dalen. Code 2 in het onderdeel genese geeft aan dat het een dal is dat hoofdzakelijk is ontstaan door erosie onder periglaciale omstandigheden, waarbij de ondergrond permanent bevroren was (permafrost), en periodiek overvloedige hoeveelheden sneeuwsmeltwater afstroomden. De landvormcode 1 geeft in combinatie met de vormgroep- en genesecode aan dat het de landvorm droogdal betreft. De lettercombinatie dl in het onderdeel toevoeging geeft weer dat de landvorm bedekt of (gedeeltelijk) opgevuld is met dekzand of (zandige)lï¿½ss. Er is bij deze landvorm geen morfologisch proces actief.</item>
+De reliëfcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1°) en een zeer geringe hoogteverschillen binnen de landvorm landvorm (¼ tot ½m). De R in de code staat voor de vormgroep dalen. Code 2 in het onderdeel genese geeft aan dat het een dal is dat hoofdzakelijk is ontstaan door erosie onder periglaciale omstandigheden, waarbij de ondergrond permanent bevroren was (permafrost), en periodiek overvloedige hoeveelheden sneeuwsmeltwater afstroomden. De landvormcode 1 geeft in combinatie met de vormgroep- en genesecode aan dat het de landvorm droogdal betreft. De lettercombinatie dl in het onderdeel toevoeging geeft weer dat de landvorm bedekt of (gedeeltelijk) opgevuld is met dekzand of (zandige)löss. Er is bij deze landvorm geen morfologisch proces actief.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -903,7 +903,7 @@ De reliëfcode 22 staat voor ondiepe dalen, met zeer gering verhang (&amp;lt;1ï
                         <item type="detail"
                               idref="detail_attribute_Model_Landvormeenheid_toevoegingRelief">toevoeging relief</item>
                      </item>
-                     <item>Nadere typering van het reliï¿½f en/of typering van de (relatieve) hoogteligging van de landvormeenheid.</item>
+                     <item>Nadere typering van het reliëf en/of typering van de (relatieve) hoogteligging van de landvormeenheid.</item>
                      <item>
                         <item type="global" idref="global_class_Model_ToevoegingRelief">ToevoegingRelief</item>
                      </item>
@@ -2512,7 +2512,7 @@ De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&lt;1ï
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Nadere typering van het reliï¿½f en/of typering van de (relatieve) hoogteligging van de landvormeenheid.</item>
+                        <item>Nadere typering van het reliëf en/of typering van de (relatieve) hoogteligging van de landvormeenheid.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
