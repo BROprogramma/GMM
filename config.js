@@ -2,7 +2,7 @@ var respecConfig = {
   specStatus: "GN-DEF",
   specType: "IM",
   //  subtitle: "BRO gegevenscatalogus",
-   publishDate: "2020-03-31", 
+   publishDate: "2019-05-10", 
   logos: [{
 	      src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
