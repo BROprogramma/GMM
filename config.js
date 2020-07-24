@@ -1,31 +1,26 @@
 var respecConfig = {
   specStatus: "GN-DEF",
   specType: "IM",
-    subtitle: "BRO gegevenscatalogus",
+  //  subtitle: "BRO gegevenscatalogus",
    publishDate: "2020-03-31", 
-  logos: [
-  {src: 'logo_bro.png',
-    href: "http://basisregistratieondergrond.nl",
-    alt: "Basisregistratie Ondergrond",
-    width: 252,
-    height: 130,
-    id: 'BRO'},
-  {
-    src: 'logo_minbzk.png',
+  logos: [{
+	      src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
     alt: "Ministerie BZK",
-    width: 229,
-    height: 130,
-    id: 'BZK',
-  }]  ,
-  editors: [],
-  authors: [
-    {
-      name: "TNO Geologische Dienst Nederland",
-	  mailto: "support@broservicedesk.nl",
-	  note: "088 – 8664 999",
-      companyURL: "http://www.tno.nl",
+    width: 776,
+    height: 163,
+    id: 'logo_minbzk',}
+
+  ]  ,
+ editors: [    {
+      name: "Geonovum",	
+      companyURL: "https://www.geonovum.nl/geo-standaarden/bro-basisregistratie-ondergrond",
     }],
+  authors: [
+    {  name: "Geonovum",
+      companyURL: "https://www.geonovum.nl/geo-standaarden/bro-basisregistratie-ondergrond",
+    }],
+
   localBiblio: {
     Maas2017: {
       title:
@@ -43,7 +38,7 @@ var respecConfig = {
       id: "Rapport 1039",
     },
   },
-  shortName: "bro-gmm",
+  shortName: "GMM",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GMM",
   //previousPublishDate: "2017-01-01",
