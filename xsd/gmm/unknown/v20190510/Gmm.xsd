@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:INSPIRE="http://inspire.ec.europa.eu/schemas/ge-core/4.0"
+   xmlns:bro="http://www.broservices.nl/xsd/brocommon/3.0"
+   xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0"
+   xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+   xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+   xmlns:gmm="http://www.broservices.nl/xsd/gmm/1.0"
+   xmlns:imvert="http://www.imvertor.org/schema/system" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   targetNamespace="http://www.broservices.nl/xsd/gmm/1.0" elementFormDefault="qualified"
+   attributeFormDefault="unqualified" version="1.0-1">
+   <xs:annotation>
+      <xs:appinfo source="http://www.imvertor.org/model-info/project">Logical model</xs:appinfo>
+      <xs:appinfo source="http://www.imvertor.org/model-info/application">gmm</xs:appinfo>
+      <xs:appinfo source="http://www.imvertor.org/model-info/release">20190510</xs:appinfo>
+      <xs:appinfo source="http://www.imvertor.org/model-info/version">1.0</xs:appinfo>
+      <xs:appinfo source="http://www.imvertor.org/model-info/phase">1</xs:appinfo>
+      <xs:appinfo source="http://www.imvertor.org/model-info/uri">http://www.broservices.nl/xsd/gmm</xs:appinfo>
+      <xs:appinfo source="http://www.imvertor.org/model-info/generated">2021-04-06T08:53:55Z</xs:appinfo>
+      <xs:appinfo source="http://www.imvertor.org/xml-schema-info/file-location">gmm/unknown/v20190510/Gmm.xsd</xs:appinfo>
+      <xs:appinfo source="http://www.imvertor.org/xml-schema-info/generated">April 6, 2021 at 08:53:55</xs:appinfo>
+      <xs:appinfo source="http://www.imvertor.org/xml-schema-info/generator">1.64.0</xs:appinfo>
+      <xs:documentation source="http://www.imvertor.org/schema-info/conversion">
+        This schema is based on an UML specification, which is transformed by the Imvertor software. Imvertor modules are in the public domain, see http://www.imvertor.org.
+    </xs:documentation>
+   </xs:annotation>
+   <xs:annotation>
+      <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+         <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+      </xs:appinfo>
+   </xs:annotation>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0"
+      schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+   <xs:import namespace="http://standards.iso.org/iso/19115/-3/gex/1.0"
+      schemaLocation="http://standards.iso.org/iso/19115/-3/gex/1.0/gex.xsd"/>
+   <xs:import namespace="http://standards.iso.org/iso/19115/-3/cit/1.0"
+      schemaLocation="http://standards.iso.org/iso/19115/-3/cit/1.0/cit.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2"
+      schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+   <xs:import namespace="http://inspire.ec.europa.eu/schemas/ge-core/4.0"
+      schemaLocation="http://inspire.ec.europa.eu/schemas/ge-core/4.0/GeologyCore.xsd"/>
+   <xs:element name="RegistrationObject" type="gmm:RegistrationObjectType"
+      substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een entititeit met het geheel van generieke gegevens die voorkomen bij alle verschillende soorten registratieobjecten in de basisregistratie ondergrond (BRO).</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="RegistrationObjectType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="broId" minOccurs="1" maxOccurs="1"
+                  type="bro:RegistrationObjectCodeType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deliveryAccountableParty" minOccurs="1" maxOccurs="1"
+                  type="bro:RegistrationObjectCodeType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="objectIdAccountableParty" type="xs:string" minOccurs="1"
+                  maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.
+Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deliveryResponsibleParty" minOccurs="1" maxOccurs="1"
+                  type="bro:OrganizationType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO
+Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="qualityRegime" type="bro:QualityRegimeTypeType" minOccurs="1"
+                  maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.
+Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="RegistrationObjectPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:RegistrationObject"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="GeomorphologicalMap" type="gmm:GeomorphologicalMapType"
+      substitutionGroup="gmm:RegistrationObject">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Model (kaart) met informatie over de geomorfologie in Nederland op schaal 1:50.000.
+Explanation: geomorfologie</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="GeomorphologicalMapType">
+      <xs:complexContent>
+         <xs:extension base="gmm:RegistrationObjectType">
+            <xs:sequence>
+               <xs:element name="identification" type="gmm:IdentifierType" minOccurs="1"
+                  maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De unieke aanduiding van de geomorfologische kaart.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="name" minOccurs="1" maxOccurs="1" type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van de verzameling.
+Explanation: de unieke identificatie van een deelverzameling van het model (kaart) bijvoorbeeld het kaartbladnummer of de naam van het project.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="classification" type="gmm:ClassificationType" minOccurs="1"
+                  maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De soort verzameling van het model.
+Explanation: de documentatie van een verzameling bij elkaar horende geomorfologische kaartvlakken. Bijvoorbeeld in de vorm van beschrijvende rapportage bij actualisaties</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="source" type="gmm:FilePropertyType" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De typering van de hoogte informatie.
+Explanation: De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfologisch vlakcollectie, is gebruikt bij het afbakenen en classificeren van de geomorfologische vlakken.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="extent" type="gex:EX_Extent_PropertyType" minOccurs="1"
+                  maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omhullende begrenzing van het gebied waar het model geheel binnen valt.
+Explanation: De begrenzing is aangegeven door een rechthoek met de linker bovenhoek en rechter onderhoek.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="inventoryMethod" minOccurs="1" maxOccurs="1"
+                  type="gmm:InventoryMethodType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>InventoryMethod</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De inventarisatiemethode die is gebruikt.
+Explanation: Als kartering oude stijl is dan is de hoogtepunten kaart (schaal 1:10 000) gebruikt niet vastgelegd is welke versie, dus het attribuut versie is voidable. De naam en versie van het bestand met hoogte informatie dat, binnen een Geomorfologisch vlakcollectie, is gebruikt bij het afbakenen en classificeren van de Geomorfologische vlakken.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="scale" type="xs:integer" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De schaal waarop de gegevens zijn ingewonnen.
+Explanation: De kaartschaal van de geomorfologische kaart is 1:50.000, waarop de karteermethode en nauwkeurigheid (detaillering van de gebruikte classificatie) is afgestemd</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="beginLifespanVersion" type="xs:dateTime" minOccurs="1"
+                  maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Date and time at which this version of the spatial object was inserted or changed in the spatial data set.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="endLifespanVersion" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Date and time at which this version of the spatial object was superseded or retired in the spatial data set.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="1" maxOccurs="unbounded" name="relatedDike" nillable="false"
+                  type="gmm:DikeOfGeomorphologicalInterestPropertyType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een Geomorfologische kaart bestaat uit een of meer dijken van geomorfologisch belang.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="1" maxOccurs="unbounded" name="relatedGeomorphologicalArea"
+                  nillable="false" type="gmm:GeomorphologicalAreaPropertyType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een geomorfologische kaart bestaat uit een of meer geomorfologische vlakken.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="1" maxOccurs="1" name="relatedCitation" nillable="false"
+                  type="cit:CI_CitationPropertyType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een Geomorfologische vlakcollectie is gedocumenteerd in een CI_Citation.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="GeomorphologicalMapPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:GeomorphologicalMap"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="DikeOfGeomorphologicalInterest" type="gmm:DikeOfGeomorphologicalInterestType"
+      substitutionGroup="INSPIRE:MappedFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Dijk van geomorfologisch belang.
+Explanation: Primaire waterkerende dijken en dijken (bijvoorbeeld in Zeeland) die van belang/invloed zijn (geweest) op de vorming van landvormen. Scheiding tussen landvormen die wel en niet onderhevig zijn aan dynamische -> rivier- en getijde-invloeden.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="DikeOfGeomorphologicalInterestType">
+      <xs:complexContent>
+         <xs:extension base="INSPIRE:MappedFeatureType">
+            <xs:sequence>
+               <xs:element name="identification" type="gmm:IdentifierType" minOccurs="1"
+                  maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De unieke aanduiding van een Dijk van geomorfologisch belang.
+Explanation: Een externe object-ID is een unieke object-identifier die door de verantwoordelijke instantie is gepubliceerd en die door externe toepassingen kan worden gebruikt om naar het ruimtelijke object te verwijzen. De identifier is een identifier van het ruimtelijke object en niet een identifier van het fenomeen in de echte wereld.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="DikeOfGeomorphologicalInterestPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:DikeOfGeomorphologicalInterest"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="GeomorphologicalArea" type="gmm:GeomorphologicalAreaType"
+      substitutionGroup="INSPIRE:MappedFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een begrensd gebied met overeenkomstige geomorfologische kenmerken
+Explanation: de begrenzing is de 2D afbeelding van het 3D lichaam (landvorm) op het aardoppervlak (maaiveld), zodat het als kaart is te gebruiken</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="GeomorphologicalAreaType">
+      <xs:complexContent>
+         <xs:extension base="INSPIRE:MappedFeatureType">
+            <xs:sequence>
+               <xs:element name="idenfitication" type="gmm:IdentifierType" minOccurs="1"
+                  maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De unieke aanduiding van een Geomorfologisch vlak.
+Explanation: Een externe object-ID is een unieke object-identifier die door de verantwoordelijke instantie is gepubliceerd en die door externe toepassingen kan worden gebruikt om naar het ruimtelijke object te verwijzen. De identifier is een identifier van het ruimtelijke object en niet een identifier van het fenomeen in de echte wereld.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="landformUnit" type="gmm:LandformunitPropertyType" minOccurs="1"
+                  maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een landvormeenheid geclassificeerd aan de hand van 7 geomorfologische kenmerken.
+Explanation: Deze 7 kenmerken zijn als eigenschappen toegevoegd aan dit opject. EXAMPLE 22R21dl De reliï¿½fcode 22 staat voor ondiepe dalen, met zeer gering verhang (&lt;1ï¿½) en een zeer geringe hoogteverschillen binnen de landvorm (ï¿½ tot ï¿½m). De R in de code staat voor de vormgroep dalen. Code 2 in het onderdeel genese geeft aan dat het een dal is dat hoofdzakelijk is ontstaan door erosie onder periglaciale omstandigheden, waarbij de ondergrond permanent bevroren was (permafrost), en periodiek overvloedige hoeveelheden sneeuwsmeltwater afstroomden. De landvormcode 1 geeft in combinatie met de vormgroep- en genesecode aan dat het de landvorm droogdal betreft. De lettercombinatie dl in het onderdeel toevoeging geeft weer dat de landvorm bedekt of (gedeeltelijk) opgevuld is met dekzand of (zandige)lï¿½ss. Er is bij deze landvorm geen morfologische proces actief.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="GeomorphologicalAreaPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:GeomorphologicalArea"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="Landformunit" type="gmm:LandformunitType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een landvormeenheid geclassificeerd aan de hand van 7 geomorfologische kenmerken.
+Explanation: Deze 7 kenmerken zijn als eigenschappen toegevoegd aan dit object. EXAMPLE 22R21dl De reliëfcode 22 staat voor ondiepe dalen, met zeer gering verhang (&lt;1ï¿½) en een zeer geringe hoogteverschillen binnen de landvorm (ï¿½ tot ï¿½m). De R in de code staat voor de vormgroep dalen. Code 2 in het onderdeel genese geeft aan dat het een dal is dat hoofdzakelijk is ontstaan door erosie onder periglaciale omstandigheden, waarbij de ondergrond permanent bevroren was (permafrost), en periodiek overvloedige hoeveelheden sneeuwsmeltwater afstroomden. De landvormcode 1 geeft in combinatie met de vormgroep- en genesecode aan dat het de landvorm droogdal betreft. De lettercombinatie dl in het onderdeel toevoeging geeft weer dat de landvorm bedekt of (gedeeltelijk) opgevuld is met dekzand of (zandige)lï¿½ss. Er is bij deze landvorm geen morfologisch proces actief.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="LandformunitType">
+      <xs:sequence>
+         <xs:element name="relief" type="gmm:ReliefTypePropertyType" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Typering van de verticale dimensie van de landvormeenheid.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="addedRelief" type="gmm:AddedReliefPropertyType" minOccurs="0"
+            maxOccurs="2">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Nadere typering van het reliëf en/of typering van de (relatieve) hoogteligging van de landvormeenheid.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="activeProcess" type="xs:boolean" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Onderverdeling van landvormeenheden naar het wel of niet onderhevig zijn aan een actief vormingsproces. Indien er geomorfologische processen actief op een landvorm inwerken wordt dit in dit attribuut aangegeven.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="addedCovering" minOccurs="0" maxOccurs="3" type="gmm:AddedCoveringType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>AddedCovering</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Typering van de landvormsubgroep bedekkende laag.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="landformSubgroup" type="gmm:LandformSubgroupTypePropertyType"
+            minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Vormen binnen de landvormgroep en dezelfde genese, maar met andere specifieke vormkenmerken.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="LandformunitPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:Landformunit"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="LandformSubgroupType" type="gmm:LandformSubgroupTypeType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Vormen binnen de landvormgroep en dezelfde genese, maar met andere specifieke vormkenmerken. Landvormgroepen worden op basis van genese onderverdeeld. Er zijn 10 genetische processen die van invloed kunnen zijn op de landvorm.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="LandformSubgroupTypeType">
+      <xs:sequence>
+         <xs:element name="identification" type="gmm:IdentifierType" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De unieke aanduiding van een landvormsubgroep.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="landFormGroup" minOccurs="1" maxOccurs="1" type="gmm:LandformGroupType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>LandformGroup</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een groep van landvormen die in hun uiterlijke gedaante bepaalde geomorfologische kenmerken gemeenschappelijk hebben.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="genese" type="gmm:GenesePropertyType" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De ontstaanswijze van landvormen.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="LandformSubgroupTypePropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:LandformSubgroupType"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="ReliefType" type="gmm:ReliefTypeType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Typering van de verticale dimensie van de landvormeenheid.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="ReliefTypeType">
+      <xs:sequence>
+         <xs:element name="reliefCode" type="gmm:ReliefCodePropertyType" minOccurs="1" maxOccurs="1"/>
+         <xs:element name="reliefClassification" minOccurs="1" maxOccurs="1"
+            type="gmm:ReliefClassificationType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>ReliefClassification</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ReliefTypePropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:ReliefType"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="File" type="gmm:FileType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De typering van de hoogte informatie.
+Explanation: De naam en versie van het bestand met hoogte informatie dat, binnen een GeomorfologischVlakCollectie, is gebruikt bij het afbakenen en classificeren van de GeomorfologischeVlakken.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="FileType">
+      <xs:sequence>
+         <xs:element name="name" type="gmm:FileNameType" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam of beschrijving van het bestand met hoogte informatie.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="version" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De versie van het bestand met hoogte informatie.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="FilePropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:File"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:simpleType name="IdentifierType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Externe unieke object-identifier gepubliceerd door de verantwoordelijke instantie, die kan worden gebruikt door externe toepassingen om te verwijzen naar het ruimtelijke object. (bron: INSPIRE)</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="FileNameType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding voor naam van een bestand.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="AHN"/>
+         <xs:enumeration value="Topografische hoogtelijnenkaart"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="ClassificationType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding voor soort Bestand.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="kaartblad"/>
+         <xs:enumeration value="onderzoeksgebied"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:element name="AddedRelief" type="gmm:AddedReliefType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding voor soort ToevoegingRelief.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="AddedReliefType">
+      <xs:sequence>
+         <xs:element name="code" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Code van toevoeging relief.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="description" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Omschrijving van toevoeging relief.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AddedReliefPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:AddedRelief"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="Genese" type="gmm:GeneseType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding voor soort Genese.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="GeneseType">
+      <xs:sequence>
+         <xs:element name="code" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Code van genese.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="shapeDeterminingFactors" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Vormbepalende factoren van genese.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="GenesePropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:Genese"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="ReliefCodeThrough" type="gmm:ReliefCodeThroughType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding voor soort ReliefCodeDal.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="ReliefCodeThroughType">
+      <xs:sequence>
+         <xs:element name="depth" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Diepte t.o.v. omgeving in meter.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="steepestSlope" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Steilste verhang</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="maximumHeightDifference" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Maximaal hoogteverschil binnen de vorm in meters.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="maximumDecline" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Maximaal verval in meters.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="code" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Code van relief dal.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ReliefCodeThroughPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:ReliefCodeThrough"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="ReliefCodeNonThrough" type="gmm:ReliefCodeNonThroughType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding voor soort ReliëfCodeNietDal.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="ReliefCodeNonThroughType">
+      <xs:sequence>
+         <xs:element name="relief" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Relief.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="slope" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Helling.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="localMaximumHeightDifference" minOccurs="1" maxOccurs="1"
+            type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Lokaal maximaal hoogteverschil in meters.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="code" minOccurs="1" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Code van relief niet-dal.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ReliefCodeNonThroughPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:ReliefCodeNonThrough"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AddedCoveringType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed=""/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="ReliefClassificationType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace" type="xs:anyURI" use="required"
+               fixed="urn:bro:gmm:ReliefClassification"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="InventoryMethodType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace" type="xs:anyURI" use="required"
+               fixed="urn:bro:gmm:InventoryMethod"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="LandformGroupType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed=""/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:element name="ReliefCode" type="gmm:ReliefCodeType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een samengestelde waardes voor reliefcode waarbij een gekeuze gemaakt moet worden tussen dalwaarde (ReliefCodeDalWaarde) en niet-dalwaarde (ReliefCodeNietDalWaarde).</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="ReliefCodeType">
+      <xs:choice minOccurs="1" maxOccurs="1">
+         <xs:element ref="gmm:ReliefCodeThrough"/>
+         <xs:element ref="gmm:ReliefCodeNonThrough"/>
+      </xs:choice>
+   </xs:complexType>
+   <xs:complexType name="ReliefCodePropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="gmm:ReliefCode"/>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>
