@@ -139,7 +139,7 @@ Explanation: Als kartering oude stijl is dan is de hoogtepunten kaart (schaal 1:
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Date and time at which this version of the spatial object was superseded or retired in the spatial data set.</xs:documentation>
                   </xs:annotation>
                </xs:element>
-               <xs:element minOccurs="1" maxOccurs="unbounded" name="relatedDike" nillable="false"
+               <xs:element minOccurs="1" maxOccurs="unbounded" name="relatedMapArea" nillable="false"
                   type="gmm:MapAreaPropertyType">
                   <xs:annotation>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geomorfologische vlakcollectie bestaat uit een of meer Kaartvlakken.</xs:documentation>
@@ -315,7 +315,7 @@ Explanation: de begrenzing is de 2D afbeelding van het 3D lichaam (landvorm) op 
    </xs:complexType>
    <xs:complexType name="ReliefTypeType">
       <xs:sequence>
-         <xs:element name="reliefCode" type="gmm:ReliefCodePropertyType" minOccurs="1" maxOccurs="1">
+         <xs:element name="reliefCode" type="gmm:ReliefCodePropertyType" xsi:nill="true" minOccurs="1" maxOccurs="1">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Code van reliëf.</xs:documentation>
             </xs:annotation>
