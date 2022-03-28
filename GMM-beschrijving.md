@@ -24,10 +24,6 @@ Daarnaast vindt in het veld een controle van de kartering plaats waarbij op
 basis van visuele waarnemingen waar nodig wijzigingen in de begrenzing landvorm
 worden aangebracht.
 
-Het Ministerie van Landbouw, Natuur en Voedselkwaliteit (LNV) is de bronhouder,
-en Wageningen Environmental Research (WENR) is de dataleverancier van het
-geomorfologische kaart model (GMM).
-
 Geomorfologisch onderzoek en -kartering
 ---------------------------------------
 
@@ -128,15 +124,10 @@ Nederland 1:50 000](http://legendageomorfologie.wur.nl/) is online beschikbaar
 
 ### Versiebeheer
 
-De beheerder van een model maakt zijn waardenlijsten (codelijsten en/of
-referentielijsten) bekend op een algemeen bekend formaat (PDF en als
-downloadable bestand) en maakt deze toegankelijk via
-www.basisregistratieondergrond.nl. De waardenlijsten worden meegeleverd bij de
-modellevering.
+De beheerder van een model maakt zijn waardenlijsten (codelijsten en/of referentielijsten) bekend op een algemeen bekend formaat (PDF en als downloadable bestand) en maakt deze toegankelijk via www.basisregistratieondergrond.nl. De waardenlijsten worden meegeleverd bij de modellevering.
 
-Als er wijzigingen zijn in een waardelijst, wordt er uiterlijk twee maanden vóór
-inwerkingtreding een notificatie op die website gezet, zodat gebruikers nog tijd
-hebben om hun eigen omgeving op de wijzigingen aan te passen.
+Als er wijzigingen zijn in een waardelijst, wordt er uiterlijk twee maanden vóór inwerkingtreding een notificatie op die website gezet, zodat gebruikers nog tijd hebben om hun eigen omgeving op de wijzigingen aan te passen.
+
 
 ### Vormgroep
 
