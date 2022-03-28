@@ -1,10 +1,10 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
-  //  subtitle: "BRO gegevenscatalogus",
-  //publishDate: "2019-05-10", 
+  subtitle: "BRO gegevenscatalogus",
+  //publishDate: "2022-03-28", 
   logos: [{
-	      src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
+    src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
     alt: "Ministerie BZK",
     width: 776,
@@ -41,7 +41,7 @@ var respecConfig = {
   shortName: "GMM",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GMM",
-  previousPublishDate: "2019-05-10",
+  previousPublishDate: "2022-03-28",
   previousStatus: "GN-DEF",
   //localBiblio: {
   //  "ISO19136": {
