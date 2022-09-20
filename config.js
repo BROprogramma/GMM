@@ -42,7 +42,7 @@ var respecConfig = {
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GMM",
   previousPublishDate: "2022-03-28",
-  previousStatus: "GN-DEF",
+  previousStatus: "GN-VV",
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
