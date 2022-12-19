@@ -124,10 +124,15 @@ Nederland 1:50 000](http://legendageomorfologie.wur.nl/) is online beschikbaar
 
 ### Versiebeheer
 
-De beheerder van een model maakt zijn waardenlijsten (codelijsten en/of referentielijsten) bekend op een algemeen bekend formaat (PDF en als downloadable bestand) en maakt deze toegankelijk via www.basisregistratieondergrond.nl. De waardenlijsten worden meegeleverd bij de modellevering.
+De beheerder van een model maakt zijn waardenlijsten (codelijsten en/of
+referentielijsten) bekend op een algemeen bekend formaat (PDF en als
+downloadable bestand) en maakt deze toegankelijk via
+www.basisregistratieondergrond.nl. De waardenlijsten worden meegeleverd bij de
+modellevering.
 
-Als er wijzigingen zijn in een waardelijst, wordt er uiterlijk twee maanden vóór inwerkingtreding een notificatie op die website gezet, zodat gebruikers nog tijd hebben om hun eigen omgeving op de wijzigingen aan te passen.
-
+Als er wijzigingen zijn in een waardelijst, wordt er uiterlijk twee maanden vóór
+inwerkingtreding een notificatie op die website gezet, zodat gebruikers nog tijd
+hebben om hun eigen omgeving op de wijzigingen aan te passen.
 
 ### Vormgroep
 
@@ -314,6 +319,12 @@ dichterbij de 1 : 25 000 en voor sommige gebieden zelfs 1 : 10 000.
 INSPIRE
 -------
 
-De modellering van de Geomorfologisch Kaart is geënt op INSPIRE. In de gegevensdefinitie van GMM wordt verwezen naar een entiteiten die worden overgenomen uit INSPIRE.
+De modellering van de Geomorfologisch Kaart is geënt op INSPIRE. In de
+gegevensdefinitie van GMM wordt verwezen naar een entiteiten die worden
+gedefinieerd in de gegevensdefinitie van INSPIRE.
 
-Het abstracte objecttype Kaartvlak in GMM is een specialisatie van het INSPIRE-object [Mapped Feature](https://inspire.ec.europa.eu/featureconcept/MappedFeature), d.w.z. Kaartvlak overerft de eigenschappen van MappedFeature. MappedFeature in INSPIRE is een specialisatie van INSPIRE GeologicFeature.
+Het abstracte objecttype Kaartvlak in GMM is een specialisatie van het
+INSPIRE-object [Mapped
+Feature](https://inspire.ec.europa.eu/featureconcept/MappedFeature), d.w.z.
+Kaartvlak overerft de eigenschappen van MappedFeature. MappedFeature in INSPIRE
+is een specialisatie van INSPIRE GeologicFeature.
