@@ -310,3 +310,10 @@ die werden opgenomen, vlakken die ca. 10 ha. representeerden (1 cm2 op de kaart
 = 25 ha. in het terrein). Tegenwoordig worden veel kleinere kaartvlakken
 gekarteerd. De mate van detail van de huidige geomorfologische kaart komt
 dichterbij de 1 : 25 000 en voor sommige gebieden zelfs 1 : 10 000.
+
+INSPIRE
+-------
+
+De modellering van de Geomorfologisch Kaart is geënt op INSPIRE. In de gegevensdefinitie van GMM wordt verwezen naar een entiteiten die worden overgenomen uit INSPIRE.
+
+Het abstracte objecttype Kaartvlak in GMM is een specialisatie van het INSPIRE-object [Mapped Feature](https://inspire.ec.europa.eu/featureconcept/MappedFeature), d.w.z. Kaartvlak overerft de eigenschappen van MappedFeature. MappedFeature in INSPIRE is een specialisatie van INSPIRE GeologicFeature.
