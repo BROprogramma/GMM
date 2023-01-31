@@ -1,7 +1,7 @@
 var respecConfig = {
   specStatus: "GN-CV",
   specType: "IM",
-  subtitle: "BRO gegevenscatalogus",
+  //subtitle: "BRO gegevenscatalogus",
   publishDate: "2023-02-01", 
   logos: [{
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
