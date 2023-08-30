@@ -42,6 +42,8 @@ var respecConfig = {
   github: "https://github.com/BROprogramma/GMM",
   previousPublishDate: "2023-05-04",
   previousStatus: "GN-VV",
+  //previousPublishDate: "2024-01-01",
+  //previousStatus: "GN-DEF",
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
